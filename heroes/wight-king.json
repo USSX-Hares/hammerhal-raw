@@ -1,0 +1,50 @@
+{
+    "name": "Wight King",
+    "subtitle": null,
+    
+    "stats":
+    {
+        "move": 3,
+        "save": 4,
+        "agility": 6
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Baleful Tomb Blade",
+            "cost": 1,
+            "range": "combat",
+            "hit": 2,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Beheading Strike",
+            "cost": 6,
+            "range": "combat",
+            "hit": 3,
+            "damage": "3"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Beheading Strike",
+            "cost": null,
+            "diceSpace": false,
+            "description": "If you roll a 6 for the attack roll when making this action it's damage is doubled."
+        }
+        ,
+        {
+            "name": "Implacable Foe",
+            "cost": null,
+            "diceSpace": false,
+            "description": "Remove one wound marker from the Wight King's hero card in each End Phase unless it has been frievously wounded. In addition, the Wight King can never be stunned."
+        }
+    ],
+    
+    "traits": [ "bladeborn", "unrelenting" ],
+    "renown": "If you slay an enemy with Beheading Strike, earn 2 renown"
+}
