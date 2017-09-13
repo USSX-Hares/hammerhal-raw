@@ -56,7 +56,7 @@
             {
                 "roll": 1,
                 "name": "We wanna see your hands!",
-                "description": "Each daemonette moves and attacks Hero with Daemonic Claws if in range."
+                "description": "Each daemonette moves towards the Hero with the best Save they can reach, and attacks Hero with Daemonic Claws if in range."
             }
             ,
             {
@@ -74,7 +74,7 @@
             {
                 "roll": 4,
                 "name": "We wanna hear your 'Yeah!'",
-                "description": "Each daemonette moves and attacks Hero with Daemonic Claws if in range. Roll twice many dices, but every successful roll inflicts stun instead."
+                "description": "Each daemonette moves towards the nearest Hero and attacks Hero with Daemonic Claws if in range. Roll twice many dices, but every successful roll inflicts stun instead."
             }
             ,
             {

@@ -5,7 +5,7 @@
     "stats":
     {
         "move": 4,
-        "save": 6,
+        "save": 5,
         "agility": 3
     },
     
@@ -56,5 +56,5 @@
     ],
     
     "traits": [ "arcane", "chaotic" ],
-    "renown": "If you roll 13 on your action roll, gain D6 renown"
+    "renown": "If you roll 13 on your action roll, gain D6 renown."
 }
