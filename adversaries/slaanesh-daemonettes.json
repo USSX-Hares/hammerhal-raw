@@ -1,0 +1,93 @@
+{
+    "name": "Slaanesh Daemonettes",
+    "description": "",
+    
+    "stats":
+    {
+        "move": 5,
+        "vigour": 3,
+        "agility": 1
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Daemonic Claws",
+            "dices": 2,
+            "range": "combat",
+            "hit": 3,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Swift Dance",
+            "dices": 2,
+            "range": "combat",
+            "hit": 5,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Loving Touch",
+            "description": "Hit rolls of 6+ with Daemonic Claws ignore Heroes' Save."
+        }
+        ,
+        {
+            "name": "Fascinating Dance",
+            "description": "Slaanesh Daemonettes are free to bypass Heroes."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+2",
+            "description": "After Daemonette has attacked, they can move up to 2 spaces."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": 1,
+                "name": "We wanna see your hands!",
+                "description": "Each daemonette moves and attacks Hero with Daemonic Claws if in range."
+            }
+            ,
+            {
+                "roll": 2,
+                "name": "We wanna see your dance!",
+                "description": "Each daemonette moves through the most amount of Heroes they can pass and attacks any of them with Swift Dance."
+            }
+            ,
+            {
+                "roll": 3,
+                "name": "Like there is no tomorrow!",
+                "description": "Remove all daemonettes from the group. Set them up at the start of next Adversary Phase anywhere on the board."
+            }
+            ,
+            {
+                "roll": 4,
+                "name": "We wanna hear your 'Yeah!'",
+                "description": "Each daemonette moves and attacks Hero with Daemonic Claws if in range. Roll twice many dices, but every successful roll inflicts stun instead."
+            }
+            ,
+            {
+                "roll": 5,
+                "name": "No wanna hear your 'No!'",
+                "description": "Each daemonette attacks any adjacent Hero with Swift Dance. Then, each daemonette must move at least half of their movement through different spaces. Then, this group can be activated again."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Now raise your hands and - let's go!",
+                "description": "Each daemonette attacks Hero with Daemonic Claws if in range. Any daemonette who did not attack can move double distance."
+            }
+        ]
+    }
+}

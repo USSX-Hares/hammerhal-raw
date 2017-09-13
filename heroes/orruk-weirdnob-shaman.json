@@ -1,0 +1,60 @@
+{
+    "name": "Orrik Weird",
+    "subtitle": null,
+    
+    "stats":
+    {
+        "move": 4,
+        "save": 6,
+        "agility": 3
+    },
+    
+    "diceSpace": "default",
+
+    "weapons":
+    [
+        {
+            "name": "Warpstone Staff",
+            "cost": 1,
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Warp Lightning",
+            "cost": 4,
+            "range": "missile",
+            "hit": 3,
+            "damage": "D3"
+        }
+        ,
+        {
+            "name": "Vermintide",
+            "cost": 6,
+            "range": "area",
+            "hit": 3,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Swarmed",
+            "cost": null,
+            "diceSpace": false,
+            "description": "If you roll a 6 for the attack when using Vermintide, the affected target suffers D3 wounds instead of 1."
+        }
+        ,
+        {
+            "name": "Warpstone Token",
+            "cost": null,
+            "diceSpace": false,
+            "description": "After making an action roll to generate a Gray Seer's hero dice, you can choose to re-roll one of the dice. If you do so and roll 1, suffer a wound."
+        }
+    ],
+    
+    "traits": [ "arcane", "chaotic" ],
+    "renown": "If you roll 13 on your action roll, gain D6 renown"
+}
