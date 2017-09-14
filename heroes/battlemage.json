@@ -1,0 +1,51 @@
+{
+    "name": "Battlemage",
+    "subtitle": null,
+    "image": "images/battlemage.jpg",
+    
+    "stats":
+    {
+        "move": 3,
+        "save": 6,
+        "agility": 5
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Battlemage's Staff",
+            "cost": 1,
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Arcane Bolt",
+            "cost": 3,
+            "range": "missile",
+            "hit": 3,
+            "damage": "D3"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Storm Call",
+            "cost": 5,
+            "diceSpace": false,
+            "description": "Pick up to 3 adversaries nearby. Each of them suffers 1 Wound."
+        }
+        ,
+        {
+            "name": "Mysctic Shield",
+            "cost": 6,
+            "diceSpace": true,
+            "description": "Put the hero dice here until the end of the round. While it is there, add 1 to any save rolls for the Battlemage and any other heroes in the same chamber."
+        }
+    ],
+    
+    "traits": [ "academic", "arcane" ],
+    "renown": "If you use both Arcane Bolt and Mystic Shield actions in a turn, gain 1 renown."
+}
