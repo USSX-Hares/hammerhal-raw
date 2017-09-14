@@ -1,0 +1,53 @@
+{
+    "name": "Great Bray-Shaman",
+    "titleFontSizeScale": 0.8,
+    "rulesSeparatorHeight": 80,
+    "subtitle": null,
+    "image": "images/great_bray_shaman.jpg",
+    
+    "stats":
+    {
+        "move": 4,
+        "save": 6,
+        "agility": 3
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Fetish Staff",
+            "cost": 1,
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Savage Dominion",
+            "cost": 6,
+            "range": "area",
+            "hit": 4,
+            "damage": "stun"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Dominate the Weak",
+            "cost": null,
+            "diceSpace": false,
+            "description": "If you roll a 6 for the attack roll when using Savage Dominion, you can immediately move the affected target and then make a weapon action with it against an adversary of your choice. The affected target is then stunned."
+        }
+        ,
+        {
+            "name": "Bestial Vigour",
+            "cost": 4,
+            "diceSpace": true,
+            "description": "Put a hero dice here until the end of round. While it is there, add 1 to the Damage of 1+ weapon action of the Great Bray-Shaman and any other heroes in the same chamber."
+        }
+    ],
+    
+    "traits": [ "arcane", "chaotic" ],
+    "renown": "If you use Dominate the Weak to inflict a wound on an adversary, gain 2 renown."
+}
