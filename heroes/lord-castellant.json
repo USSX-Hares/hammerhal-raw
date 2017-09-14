@@ -1,0 +1,51 @@
+{
+    "name": "Lord-Castellant",
+    "subtitle": null,
+    "image": "images/lord_castellant.jpg",
+    
+    "stats":
+    {
+        "move": 3,
+        "save": 4,
+        "agility": 5
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Castellant's Halberd",
+            "cost": 1,
+            "range": "combat",
+            "hit": 4,
+            "damage": "2"
+        }
+        ,
+        {
+            "name": "Warding Lantern",
+            "cost": 6,
+            "range": "area",
+            "hit": 4,
+            "damage": "stun"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Light of Azyr",
+            "cost": null,
+            "diceSpace": false,
+            "description": "If you roll a 6 for the attack roll when using Warding Lantern, the target suffers D3 wounds and is then stunned."
+        }
+        ,
+        {
+            "name": "Healing Light",
+            "cost": 6,
+            "diceSpace": true,
+            "description": "Put the hero dice here until the end of the round. When you remove the dice, remove a wound marker from all heroes in the party who are on the board."
+        }
+    ],
+    
+    "traits": [ "celestial", "unrelenting" ],
+    "renown": "If you stun 3 or more adversaries with the Warding Lantern in a turn, gain 1 renown."
+}
