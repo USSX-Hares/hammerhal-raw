@@ -1,0 +1,52 @@
+{
+    "name": "Chaos Sorcerer Lord",
+    "titleFontSizeScale": 0.8,
+    "subtitle": null,
+    "image": "images/chaos_sorcerer_lord.jpg",
+    
+    "stats":
+    {
+        "move": 3,
+        "save": 5,
+        "agility": 4
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Chaos Runestaff",
+            "cost": 1,
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Dark Bolt",
+            "cost": 4,
+            "range": "missile",
+            "hit": 4,
+            "damage": "D3+1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Oracular Visions",
+            "cost": 4,
+            "diceSpace": true,
+            "description": "Put a hero dice here until the end of round. Players can re-roll any save rolls of 1 while in the same chamber as the Chaos Sorcerer Lord."
+        }
+        ,
+        {
+            "name": "The Power of Chaos",
+            "cost": null,
+            "diceSpace": false,
+            "description": "If you roll a 6 for the Chaos Sorcerer Lord's attack roll, its damage is doubled."
+        }
+    ],
+    
+    "traits": [ "arcane", "chaotic" ],
+    "renown": "If you slay an enemy using the Power of Chaos, earn 2 renown."
+}
