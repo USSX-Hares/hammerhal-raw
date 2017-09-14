@@ -1,11 +1,13 @@
 {
-    "name": "Orrik Weird",
+    "name": "Orruk Weirdnob Shaman",
+    "titleFontSizeScale": 0.8,
     "subtitle": null,
+    "image": "images/orruk_weirdnob_shaman.jpg",
     
     "stats":
     {
-        "move": 4,
-        "save": 6,
+        "move": 3,
+        "save": 5,
         "agility": 3
     },
     
@@ -14,7 +16,7 @@
     "weapons":
     [
         {
-            "name": "Warpstone Staff",
+            "name": "WAAAGH! Staff",
             "cost": 1,
             "range": "combat",
             "hit": 4,
@@ -22,39 +24,31 @@
         }
         ,
         {
-            "name": "Warp Lightning",
-            "cost": 4,
+            "name": "Green Puke",
+            "cost": 3,
             "range": "missile",
-            "hit": 3,
+            "hit": 4,
             "damage": "D3"
-        }
-        ,
-        {
-            "name": "Vermintide",
-            "cost": 6,
-            "range": "area",
-            "hit": 3,
-            "damage": "1"
         }
     ],
     
     "abilities":
     [
         {
-            "name": "Swarmed",
+            "name": "Green Puke",
             "cost": null,
             "diceSpace": false,
-            "description": "If you roll a 6 for the attack when using Vermintide, the affected target suffers D3 wounds instead of 1."
+            "description": "You can make weapon actions with Green Puke even while adjacent to adversaries."
         }
         ,
         {
-            "name": "Warpstone Token",
-            "cost": null,
+            "name": "Foot of Gork",
+            "cost": 6,
             "diceSpace": false,
-            "description": "After making an action roll to generate a Gray Seer's hero dice, you can choose to re-roll one of the dice. If you do so and roll 1, suffer a wound."
+            "description": "Pick a model on the board visible to the Orukk Weirdnob Shaman, roll a dice for the target model and any adjacent model (friend or foe); if the roll is lower than their agility they suffer D3 wounds (roll separately for each model). In addition, before resolving, you can spend any of your remaining Hero Dices to receive -1 for these rolls for each dice spent."
         }
     ],
     
-    "traits": [ "arcane", "chaotic" ],
-    "renown": "If you roll 13 on your action roll, gain D6 renown"
+    "traits": [ "arcane", "crazed" ],
+    "renown": "If you slay 2 or more enemies with Foot of Gork, gain 1 renown."
 }
