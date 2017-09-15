@@ -1,0 +1,118 @@
+{
+    "name": "Chaos Sorcerer Lord",
+    "titleFontSizeScale": 0.9,
+    "description": "This servant of the Dark Gods can call upon his eldritch power to bolster his minions, or to sear his enemies from existence.",
+    "image": "images/chaos_sorcerer_lord.jpg",
+    
+    "stats":
+    {
+        "move": 3,
+        "vigour": 9,
+        "agility": 1
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Dark Bolt",
+            "dices": "D3",
+            "range": "missile",
+            "hit": 4,
+            "damage": "D3"
+        }
+        ,
+        {
+            "name": "Chaos Runestaff",
+            "dices": "1",
+            "range": "combat",
+            "hit": 2,
+            "damage": "D3"
+        }
+        ,
+        {
+            "name": "Chaos Runesword",
+            "dices": "2",
+            "range": "combat",
+            "hit": 2,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "The Power of Chaos",
+            "description": "If you roll a 6 for the Chaos Sorcerer Lord's attack roll, its damage is doubled."
+        }
+        ,
+        {
+            "name": "Oracular Visions",
+            "description": "Whenever a hero hits the Chaos Sorcerer Lord, roll a dice. On a 5 or 6, that hit is ignored."
+        }
+        ,
+        {
+            "name": "Daemonic Power",
+            "description": "Pick D3 other adversaries that are within 3 spaces of the Chaos Sorcerer Lord at the start of the adversary phase. Roll 1 extra dice for each of those adversaries when they attack."
+        }
+        ,
+        {
+            "name": "Nemesis",
+            "description": "The Chaos Sorcerer Lord cannot be stunned. When he is slain, whichever hero landed the killing blow gains D3 renown rather than 1, and each other hero gains 1 renown."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+1",
+            "description": "Chaos Sorcerer Lord gains +3 Vigour instead of +1 for that difficulty, having a total Vigour value of 12."
+        }
+        ,
+        {
+            "name": "+2",
+            "description": "When you make the Chaos Sorcerer Lord behaviour roll, roll two dices and choose one of them to have its effect."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": 1,
+                "name": "Summon Minions",
+                "description": "Set up D6 Kairic Acolytes or Bloodreavers in the same manner as for an ambush, but do not roll to see if the heroes are surprised. Instead, these adversaries can act this phase unless their adversary group has already acted."
+            }
+            ,
+            {
+                "roll": 2,
+                "name": "Sorcerous Assault",
+                "description": "The Chaos Sorcerer Lord moves into a space not adjacent to any hero. He then attacks with a Dark Bolt."
+            }
+            ,
+            {
+                "roll": 3,
+                "name": "Winds of Chaos",
+                "description": "The Chaos Sorcerer Lord moves as far from the heroes as possible, In the following hero phase, all heroes must take a pinnig test if they wish to move."
+            }
+            ,
+            {
+                "roll": 4,
+                "name": "Curse Artefact",
+                "description": "The nearest hero suffers 1 wound unless they immediately discard a treasure card. The discarded card has no effect."
+            }
+            ,
+            {
+                "roll": 5,
+                "name": "Quicksilver Strike",
+                "description": "The Chaos Sorcerer Lord moves toweards the nearest hero. If he does not end his move adjacent to a hero, he makes a seconds move towards the nearest hero. He then attacks that hero with his Chaos Runestaff and Chaos Runesword."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Cruel Illusion",
+                "description": "The Chaos Sorcerer Lord switches places with the adversary closest to the most wounded hero. He then attacks that hero with a Dark Bolt if he is not adjacent to that hero, or his Chaos Runestaff and Chaos Runesword if he is adjacent to that hero."
+            }
+        ]
+    }
+}

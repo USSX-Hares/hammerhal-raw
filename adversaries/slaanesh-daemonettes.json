@@ -13,7 +13,7 @@
     [
         {
             "name": "Daemonic Claws",
-            "dices": 2,
+            "dices": "2",
             "range": "combat",
             "hit": 3,
             "damage": "1"
@@ -21,7 +21,7 @@
         ,
         {
             "name": "Swift Dance",
-            "dices": 2,
+            "dices": "2",
             "range": "combat",
             "hit": 5,
             "damage": "1"
