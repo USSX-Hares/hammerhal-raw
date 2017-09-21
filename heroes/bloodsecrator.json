@@ -1,0 +1,46 @@
+{
+    "name": "Bloodsecrator",
+    "image": "images/bloodsecrator.jpg",
+    "subtitle": null,
+    
+    "stats":
+    {
+        "move": 3,
+        "save": 4,
+        "agility": 5
+    },
+    
+    "diceSpace": "default",
+
+    "weapons":
+    [
+        {
+            "name": "Ensorcelled Axe",
+            "cost": 1,
+            "range": "combat",
+            "hit": 3,
+            "damage": "2"
+        }
+        ,
+        {
+            "name": "Wrath of Khorne",
+            "cost": 4,
+            "range": "area",
+            "hit": 3,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Portal of Skulls",
+            "cost": 6,
+            "diceSpace": true,
+            "description": "Put the hero dice here until the end of the round. While it is there, the Bloodsecrator cannot move, but his Wrath of Khorne weapon action has a Damage of D3 rather than 1. In addition, other players in the party can choose to re-roll any failed attack rolls nd any D3 or D6 damage rolls for their heroes."
+        }
+    ],
+    
+    "traits": [ "chaotic", "totemic" ],
+    "renown": "If you slay any adveraries during your turn with the Wrath of Khorne, gain 1 renown."
+}
