@@ -1,0 +1,92 @@
+{
+    "name": "Tzaangors",
+    "description": "These savage1 beastkin have been warped into shapes more pleasing to Tzeentch. They fight with the speed and violence of unbridled change.",
+    "image": "images/tzaangors.jpg",
+
+    "stats":
+    {
+        "move": 4,
+        "vigour": 5,
+        "agility": 5
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Savage Blade",
+            "dices": "2",
+            "range": "combat",
+            "hit": 3,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Vicious Beak",
+            "dices": "1",
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Tzaangor with Two Blades",
+            "description": "Roll 4 dice for this Tzaangor's Savage Blade rather than 2."
+        }
+        ,
+        {
+            "name": "Tzaangor with Shield",
+            "description": "This Tzaangor has a Vigour of 7 rather than 5."
+        }
+        ,
+        {
+            "name": "Tzaangor with Greataxe",
+            "description": "This Tzaangor's Savage Blade has a Damage of 2 rather than 1."
+        }
+        ,
+        {
+            "name": "Bloodhunger",
+            "right": true,
+            "description": "If a Tzaangor inflicts any wound on a hero, it immediately attacks the same hero with its Vicious Beak."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+1",
+            "description": "In addition to bonus to Vigour, Tzaangors gain +1 Move and +1 Agility."
+        }
+        ,
+        {
+            "name": "+2",
+            "description": "In addition to bonus to Vigour, Bloodhunger rool now triggers each time Tzaangor inflicts a wound."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": 1,
+                "name": "Bloodfeast",
+                "description": "Each Tzaangor moves towards the most wounded hero it can reach, or towards the nearest hero if it can reach any. Then, each Tzaangor attacks with its Savage Blade if it is in range."
+            }
+            ,
+            {
+                "roll": "2-4",
+                "name": "Bestial Charge",
+                "description": "Each Tzaangor moves towards the nearest hero. Then, each Tzaangor attacks with its Savage Blade if it is in range."
+            }
+            ,
+            {
+                "roll": "5-6",
+                "name": "Challenge the Mighty",
+                "description": "Each Tzaangor moves towards the leasy wounded hero it can reach, or towards the nearest hero if it can reach any. Then, each Tzaangor attacks the least wounded hero in range with its Savage Blade."
+            }
+        ]
+    }
+}
