@@ -35,17 +35,17 @@
             "name": "Beheading Strike",
             "cost": null,
             "diceSpace": false,
-            "description": "If you roll a 6 for the attack roll when making this action it's damage is doubled."
+            "description": "If you roll a 6 for the attack roll when making this action, it's damage is doubled."
         }
         ,
         {
             "name": "Implacable Foe",
             "cost": null,
             "diceSpace": false,
-            "description": "Remove one wound marker from the Wight King's hero card in each End Phase unless it has been frievously wounded. In addition, the Wight King can never be stunned."
+            "description": "Remove one wound marker from the Wight King's hero card in each End Phase unless it has been grievously wounded. In addition, the Wight King can never be stunned."
         }
     ],
     
     "traits": [ "bladeborn", "unrelenting" ],
-    "renown": "If you slay an enemy with Beheading Strike, earn 2 renown."
+    "renown": "If you slay an enemy with Beheading Strike, gain 2 additional renown."
 }

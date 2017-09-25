@@ -33,20 +33,21 @@
     "abilities":
     [
         {
-            "name": "Oracular Visions",
-            "cost": 4,
-            "diceSpace": true,
-            "description": "Put a hero dice here until the end of round. Players can re-roll any save rolls of 1 while in the same chamber as the Chaos Sorcerer Lord."
-        }
-        ,
-        {
             "name": "The Power of Chaos",
             "cost": null,
             "diceSpace": false,
-            "description": "If you roll a 6 for the Chaos Sorcerer Lord's attack roll, its damage is doubled."
+            "description": "If you roll a 6 for the Chaos Sorcerer Lord's attack roll, its Damage is doubled."
         }
+        ,
+        {
+            "name": "Oracular Visions",
+            "cost": 4,
+            "diceSpace": true,
+            "description": "Put the hero dice here until the end of the round. While it is there, players can re-roll any save rolls of 1 for the Chaos Sorcerer Lord and any other heroes in the same chamber."
+        }
+
     ],
     
     "traits": [ "arcane", "chaotic" ],
-    "renown": "If you slay an enemy using the Power of Chaos, earn 2 renown."
+    "renown": "If you slay an enemy using the Power of Chaos, gain 1 additional renown."
 }

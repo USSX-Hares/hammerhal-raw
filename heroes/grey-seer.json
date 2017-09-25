@@ -57,5 +57,5 @@
     ],
     
     "traits": [ "arcane", "chaotic" ],
-    "renown": "If you roll 13 on your action roll, gain D6 renown."
+    "renown": "If the total you roll 13 on your action roll, gain D6 renown."
 }

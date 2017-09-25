@@ -44,7 +44,7 @@
             "name": "Bestial Vigour",
             "cost": 4,
             "diceSpace": true,
-            "description": "Put a hero dice here until the end of round. While it is there, add 1 to the Damage of 1+ weapon action of the Great Bray-Shaman and any other heroes in the same chamber."
+            "description": "Put the hero dice here until the end of round. While it is there, add 1 to the Damage of 1+ weapon action of the Great Bray-Shaman and any other heroes in the same chamber."
         }
     ],
     

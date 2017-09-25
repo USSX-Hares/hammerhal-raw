@@ -1,6 +1,6 @@
 {
     "name": "Orruk Weirdnob Shaman",
-    "titleFontSizeScale": 0.8,
+    "titleFontSizeScale": 0.7,
     "subtitle": null,
     "image": "images/orruk_weirdnob_shaman.jpg",
     
@@ -25,7 +25,7 @@
         ,
         {
             "name": "Green Puke",
-            "cost": 3,
+            "cost": 4,
             "range": "missile",
             "hit": 4,
             "damage": "D3"
@@ -35,17 +35,17 @@
     "abilities":
     [
         {
-            "name": "Green Puke",
-            "cost": null,
-            "diceSpace": false,
-            "description": "You can make weapon actions with Green Puke even while adjacent to adversaries."
-        }
-        ,
-        {
             "name": "Foot of Gork",
             "cost": 6,
             "diceSpace": false,
             "description": "Pick a model on the board visible to the Orukk Weirdnob Shaman, roll a dice for the target model and any adjacent model (friend or foe); if the roll is lower than their agility they suffer D3 wounds (roll separately for each model). In addition, before resolving, you can spend any of your remaining Hero Dices to receive -1 for these rolls for each dice spent."
+        }
+        ,
+        {
+            "name": "Green Puke",
+            "cost": null,
+            "diceSpace": false,
+            "description": "You can make weapon actions with Green Puke even while adjacent to adversaries."
         }
     ],
     
