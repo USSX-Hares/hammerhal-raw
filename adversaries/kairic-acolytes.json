@@ -1,0 +1,108 @@
+{
+    "name": "Kairic Acolytes",
+    "description": "These masked warriors are bound by sinister pacts to serve might Tzeentch. In the battle they make use of gifts of magic bestowed by their dark master.",
+    "image": "images/kairic_acolytes.jpg",
+    "rulesSeparatorHeight": 150,
+
+    "stats":
+    {
+        "move": 4,
+        "vigour": 3,
+        "agility": 4
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Cursed Blade",
+            "dices": "2",
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Sorcerous Bolt",
+            "dices": "1",
+            "range": "missile",
+            "hit": 3,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Mighty Blast",
+            "description": "If the attack roll for a Sorcerous Bolt is 6, its Damage is doubled."
+        }
+        ,
+        {
+            "name": "Kairic Adept",
+            "description": "This Acolyte's Sorcerous Bolts have Damage of 2 rather than 1."
+        }
+        ,
+        {
+            "name": "Acolyte with Shield",
+            "description": "This Acolyte has a Vigour of 4 rather than 3."
+        }
+        ,
+        {
+            "name": "Acolyte with Glaive",
+            "description": "This Acolyte's Cursed Blade has a Damage of 2 rather than 1."
+        }
+        ,
+        {
+            "name": "Acolyte with Two Blades",
+            "description": "Roll 4 dice for this Acolyte's Cursed Blade rather than 2."
+        }
+        ,
+        {
+            "name": "Scroll of Dark Arts",
+            "description": "Roll 2 dice for this Acolyte's Sorcerous Bolts."
+        }
+        ,
+        {
+            "name": "Vulcharc",
+            "description": "If an Acolyte with a Vulcharc is on the board, subtract 1 from all rolls on their behaviour table (to a minimum of 1), and re-roll rolls of 1 for the number of Kairic Acolytes summoned by Draw Their Blood."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+2",
+            "description": "Instead of +1 to Vigour, subtract -1 to all Behaviour Rolls made for Kairic Acolytes groups."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": "1-2",
+                "name": "Draw Their Blood",
+                "description": "Each Acolyte moves and then attacks with whichever weapon is in range. After all of the Acolytes in the group have taken a turn, roll a dice and add 1 to the result for each wound they caused. On a 6 or more, set up a Pink Horror or D3 Kairic Acolytes in the same manner as an ambush, but do not roll for surprise. A Pink Horror will act in this phase unless Pink Horrors have already acted."
+            }
+            ,
+            {
+                "roll": 3,
+                "name": "Slay the Unbelievers",
+                "description": "Each Acolyte attacks the nearest hero with whichever weapon is in range. Then, each Acolyte that did not attack moves towards the nearest hero."
+            }
+            ,
+            {
+                "roll": "4-5",
+                "name": "There is No Escape",
+                "description": "Each Acolyte moves towards the nearest hero. Then, each Acolyte attacks the nearest hero with whichever weapon is in range."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Fall Back",
+                "description": "If there are twice as many heroes on the board as Acolytes, each Acolyte move towards the nearest portal. An Acolyte that ends its move on a portal flees and is removed from play. Each Acolyte still on the board then attacks the nearest hero with whichever weapon is in range."
+            }
+        ]
+    }
+}
