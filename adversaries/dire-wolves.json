@@ -1,0 +1,100 @@
+{
+    "name": "Dire Wolves",
+    "description": "Ferocious creatures that have found primitive use of wild magic, swift, agile and deadly, sized to a horse, Dire Wolves hunt in packs, usually led by a powerful Dire Wolf Alpha.",
+    "image": "images/dire_wolves.jpg",
+
+    "stats":
+    {
+        "move": 6,
+        "vigour": 5,
+        "agility": 3
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Wolfclaw",
+            "dices": "3",
+            "range": "combat",
+            "hit": 3,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Savage Bite",
+            "dices": "1",
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Wolfhowl",
+            "dices": "1",
+            "range": "area",
+            "hit": 5,
+            "damage": "stun"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Dire Wolf Alpha",
+            "description": "Roll 3 dice for this wolfs's Savage Bite rather than 1. When they are slain, hero whoever slay Dire Wolf Alpha gains an extra renown."
+        }
+        ,
+        {
+            "name": "Wolfpack",
+            "description": "Each time wolf attacks hero with a Wolfclaw, all other wolfs adjacent to that hero attack them with a Savage Bite."
+        }
+        ,
+        {
+            "name": "Wolffangs",
+            "description": "Each time a hero fails an Agility Roll, all wolfs adjacent to that hero attack them with a Savage Bite."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+1",
+            "description": "In addition to bonus to Vigour, roll an extra dice each time wolf attacks hero with a Wolfclaw as long as Dire Wolf Alpha is on the board."
+        }
+        ,
+        {
+            "name": "+2 - Laceration Injuries",
+            "description": "Wounds caused by wolves attacks cannot be healed until the next Adversary phase."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": 1,
+                "name": "Wolfpack Leader's Challenge",
+                "description": "If there is no Dire Wolf Alpha on the board, each moves towards the nearest hero and attacks them with a Wolfclaw. Otherwise, each wolf except Dire Wolf Alpha attempts to move so as they are not adjacent to any heroes but are nearby to the Dire Wolf Alpha, and Dire Wolf Alpha moves towards the hero he can reach. Then, Dire Wolf Alpha attacks that hero with a Wolfclaw, adding an extra dice for each other wolf nearby. A Wolfclaw has a Damage of D3 rather than 1 for such attack."
+            }
+            ,
+            {
+                "roll": "2-3",
+                "name": "Pack Hunt",
+                "description": "Each wolf attempts to move so there are as many wolves adjacent to a single hero as possible. Then, each wolf attacks with its Wolfclaw if it is in range."
+            }
+            ,
+            {
+                "roll": "4-5",
+                "name": "Smell of the Blood",
+                "description": "Each wolf moves towards the nearest hero. Then, each wolf attacks with its Wolfclaw if it is in range."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Moon Howl",
+                "description": "Each wolf attacks with a Wolfhowl. If none heroes are stunned, set up D3 new wolfs. Dire Wolf Alpha could not be set up this manner."
+            }
+        ]
+    }
+}
