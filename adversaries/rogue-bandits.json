@@ -1,0 +1,115 @@
+{
+    "name": "Rogue Bandits",
+    "description": "Rogue and outcast, this raiders lurk in the forests, stalking prey without sound before striking with uncanny precision. With surprise on their side a dozen Rogue Bandits can catch and rob a much more well-armed foe.",
+    "descriptionFontSizeScale": 0.95,
+    "image": "images/rogue_bandits.jpg",
+
+    "stats":
+    {
+        "move": 3,
+        "vigour": 3,
+        "agility": 4
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Hunter Knife",
+            "dices": "1",
+            "range": "combat",
+            "hit": 3,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Saber",
+            "dices": "2",
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Glaive",
+            "dices": "1",
+            "range": "combat",
+            "hit": 4,
+            "damage": "2"
+        }
+        ,
+        {
+            "name": "Longbow",
+            "dices": "1",
+            "range": "missile",
+            "hit": 4,
+            "damage": "D3"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Bandit Ataman",
+            "description": "Add 1 to all attack rolls made for this Bandit. In addition, hero whoever slays Bandit Ataman can take 1 Gold Piece."
+        }
+        ,
+        {
+            "name": "Bandit with Saber",
+            "description": "This Bandit can attack with either Hunter Knife or Saber."
+        }
+        ,
+        {
+            "name": "Bandit with Longbow",
+            "description": "This Bandit can attack with either Hunter Knife or Longbow."
+        }
+        ,
+        {
+            "right": true,
+            "name": "Bandit with Glaive",
+            "description": "This Bandit can attack with either Hunter Knife or Glaive. If they attack with the Glaive, they can choose heroes within 2 spaces."
+        }
+        ,
+        {
+            "name": "Bandit with Shield",
+            "description": "This Bandit has a Vigour of 4 rather than 3."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+1",
+            "description": "Instead of +1 to Vigour, add 1 to the Move and Agility of Rogue Bandits."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": 1,
+                "name": "Ambush",
+                "description": "Each Bandit moves towards the nearest hero and attacks it with the Hunter Knife. Then, roll a dice for each hero. If the result is more than the number of adjacent Bandits, then the hero dodges aside; otherwise, they are stunned, and new Bandit appears as close to that hero as possible."
+            }
+            ,
+            {
+                "roll": 2,
+                "name": "Robbery",
+                "description": "Each Bandit moves towards the nearest hero and attacks it with whichever weapon is in range. If any hero loses a wound from the Combat attack, they lose 1 Gold Piece as well."
+            }
+            ,
+            {
+                "roll": "2-4",
+                "name": "Murder Them",
+                "description": "Each Bandit moves. Then, each Bandit attacks the nearest hero with whichever weapon is in range."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Panic",
+                "description": "Roll a dice for each Bandit on the board. On the roll of 1, Bandit moves to the North, on 2 - to the West, on 3 - to the South, on 4 - to the East. On the roll of 5-6, Bandit can move in any direction. None bandit can attack this phase."
+            }
+        ]
+    }
+}
