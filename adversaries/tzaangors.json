@@ -1,6 +1,6 @@
 {
     "name": "Tzaangors",
-    "description": "These savage1 beastkin have been warped into shapes more pleasing to Tzeentch. They fight with the speed and violence of unbridled change.",
+    "description": "These savage beastkin have been warped into shapes more pleasing to Tzeentch. They fight with the speed and violence of unbridled change.",
     "image": "images/tzaangors.jpg",
 
     "stats":
@@ -62,7 +62,7 @@
         ,
         {
             "name": "+2",
-            "description": "In addition to bonus to Vigour, Bloodhunger rool now triggers each time Tzaangor inflicts a wound."
+            "description": "In addition to bonus to Vigour, Bloodhunger rule now triggers each time Tzaangor inflicts a wound."
         }
     ],
     
@@ -85,7 +85,7 @@
             {
                 "roll": "5-6",
                 "name": "Challenge the Mighty",
-                "description": "Each Tzaangor moves towards the leasy wounded hero it can reach, or towards the nearest hero if it can reach any. Then, each Tzaangor attacks the least wounded hero in range with its Savage Blade."
+                "description": "Each Tzaangor moves towards the least wounded hero it can reach, or towards the nearest hero if it can reach any. Then, each Tzaangor attacks the least wounded hero in range with its Savage Blade."
             }
         ]
     }
