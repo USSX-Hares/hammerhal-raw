@@ -108,7 +108,7 @@
             {
                 "roll": 6,
                 "name": "Panic",
-                "description": "Roll a dice for each Bandit on the board. On the roll of 1, Bandit moves to the North, on 2 - to the West, on 3 - to the South, on 4 - to the East. On the roll of 5-6, Bandit can move in any direction. None bandit can attack this phase."
+                "description": "Roll a dice for each Bandit on the board. On the roll of 1, Bandit moves to the North, on 2 - to the East, on 3 - to the South, on 4 - to the West. On the roll of 5-6, Bandit can move in any direction, and then attack the nearest hero with whichever weapon is in range. Ataman would never panic and can always act as 6 is rolled for them."
             }
         ]
     }
