@@ -1,0 +1,82 @@
+{
+    "name": "Giant Rats",
+    "description": "The Giant Rat is a staple product of Chaos forces changing the Wild. At a distance these creatures might be mistaken for large dogs, but on closer inspection their foul and unnatural disposition is all too clear.",
+    "image": "images/giant_rats.jpg",
+
+    "stats":
+    {
+        "move": 4,
+        "vigour": 2,
+        "agility": 1
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Bite",
+            "dices": "2",
+            "range": "combat",
+            "hit": 5,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Infection",
+            "dices": "1",
+            "range": "combat",
+            "hit": 5,
+            "damage": "stun"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Swarm",
+            "description": "Giant Rats can group up to 3 in the single space and are free to move through heroes."
+        }
+        ,
+        {
+            "name": "Infection",
+            "description": "Saves and Evasion are not allowed against wounds caused by the Infection."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "right": true,
+            "name": "+1",
+            "description": "Instead of +1 to Vigour, rat's Bite attacks now hit on the roll of 4+ rather than 5+."
+        }
+        ,
+        {
+            "name": "+2 - Infestation",
+            "description": "Each time a hero suffers a wound from rat's Bite, they are attacked with a Infection"
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": "1-2",
+                "name": "Poisoned Spreadings",
+                "description": "Each rat which is adjacent to at least one hero attacks every of them with an Infection. Any other rats move towards the nearest hero and then attacks the nearest hero with a Bite if in range."
+            }
+            ,
+            {
+                "roll": "3-5",
+                "name": "Rat Pack",
+                "description": "All rats move towards the nearest hero. Each rat then attacks the nearest hero with a Bite if in range."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Scatter",
+                "description": "Each rat moves towards the nearest corner. Rats which reach corner and still can move flee away - remove them from the board."
+            }
+        ]
+    }
+}
