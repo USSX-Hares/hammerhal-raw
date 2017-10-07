@@ -1,0 +1,11 @@
+{
+    "name": "War Dancer",
+    
+    "description": "You move with impossible speed, flowing between your foes like water as you strike each one down.",
+    
+    "effect": "Once per turn, your hero can move up to 1 space before making a Combat weapon action.",
+    "affects": [ "bladeborn" ],
+    "additionalEffect": "you can do this more than once in a turn.",
+    
+    "set": "silver-tower"
+}

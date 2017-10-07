@@ -1,0 +1,20 @@
+{
+    "name": "Eye of Fate",
+    
+    "description": "Flashes of the future are revealed in your mind's eye, warning you of dangers to come.",
+    
+    "effect": null,
+    "actions":
+    [
+        {
+            "name": "Foresee",
+            "cost": 2,
+            "diceSpace": true,
+            "description": "Put a hero dice here until the end of the round. While it is there, you can re-roll save rolls of 1."
+        }
+    ],
+    "affects": [ "celestial" ],
+    "additionalEffect": "other players whose heroes are in the same chamber as yours can do the same.",
+    
+    "set": "silver-tower"
+}

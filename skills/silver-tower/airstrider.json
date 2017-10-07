@@ -1,0 +1,20 @@
+{
+    "name": "Airstrider",
+    
+    "description": "So nimble are you that it is no challenge to spring over the heads of your slow and clumsy foes.",
+    
+    "effect": null,
+    "actions":
+    [
+        {
+            "name": "Leap",
+            "cost": 2,
+            "diceSpace": false,
+            "description": "Move your hero up to D3 spaces. You do not need to make a pinning roll, and you can move through any miniatures."
+        }
+    ],
+    "affects": [ "swift" ],
+    "additionalEffect": "move up to 3 spaces instead of up to D3.",
+    
+    "set": "silver-tower"
+}

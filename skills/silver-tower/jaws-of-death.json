@@ -1,0 +1,20 @@
+{
+    "name": "Jaws of Death",
+    
+    "description": "With the aid of your comrades you surround the enemy, trapping them in a deadly ring of blades.",
+    
+    "effect": null,
+    "actions":
+    [
+        {
+            "name": "Coordinate",
+            "cost": 4,
+            "diceSpace": false,
+            "description": "Give the hero dice to another player that has not yet taken their turn. While they have the dice, their weapon's Hit values are 1+ against adversaries adjacent to your hero. Take the dice back after their turn."
+        }
+    ],
+    "affects": null,
+    "additionalEffect": null,
+    
+    "set": "silver-tower"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "One Step Ahead",
+    
+    "description": "Such is your insight into war that you know what your enemies will do before ever they do it.",
+    
+    "effect": "Once per turn, you can increase or decrease the result of a behaviour roll by 1.",
+    "affects": [ "celestial" ],
+    "additionalEffect": "you can increase or decrease it by up to 2 instead.",
+    
+    "set": "silver-tower"
+}

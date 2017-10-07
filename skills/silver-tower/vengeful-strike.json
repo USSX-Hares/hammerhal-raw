@@ -1,0 +1,11 @@
+{
+    "name": "Vengeful Strike",
+    
+    "description": "Those who raise their blades against you soon suffer the consequences of their foolishness.",
+    
+    "effect": "If you roll a 6 when making a save roll, you can immediately make a (1+) weapon action. (You do not need to spend a hero dice.)",
+    "affects": [ "bladeborn" ],
+    "additionalEffect": "you can make any weapon action.",
+    
+    "set": "silver-tower"
+}

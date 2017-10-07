@@ -1,0 +1,20 @@
+{
+    "name": "Lifebane",
+    
+    "description": "You are the hand of fate, the unstoppable destroyer, the embodiment of death itself.",
+    
+    "effect": null,
+    "actions":
+    [
+        {
+            "name": "Deathstrike",
+            "cost": 6,
+            "diceSpace": false,
+            "description": "Pick an adjacent adversary, and roll a dice. If the result is higher than the adversary's Vigour, they are slain."
+        }
+    ],
+    "affects": null,
+    "additionalEffect": null,
+    
+    "set": "silver-tower"
+}
