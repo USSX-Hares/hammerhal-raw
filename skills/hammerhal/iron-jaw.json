@@ -1,0 +1,11 @@
+{
+    "name": "Iron Jaw",
+    
+    "description": "You have the fortitude to ramain on your feet no matter how hard the blow that strikes you.",
+    
+    "effect": "Re-roll save rolls of 1 for this hero. In addition, they cannot be stunned.",
+    "affects": [ "unrelenting" ],
+    "additionalEffect": "re-roll failed save rolls of 1 or 2.",
+    
+    "set": "hammerhal"
+}

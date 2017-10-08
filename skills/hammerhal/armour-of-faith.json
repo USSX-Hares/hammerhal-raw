@@ -1,0 +1,11 @@
+{
+    "name": "Armour of Faith",
+    
+    "description": "Though your armour is of the finest quality, your faith in your god and your surety of purpose shield you better than any physical defence.",
+    
+    "effect": "The first time this hero fails a save roll in each adversary phase, re-roll the dice.",
+    "affects": [ "celestial" ],
+    "additionalEffect": "you can add 1 to the result of the re-roll.",
+    
+    "set": "hammerhal"
+}

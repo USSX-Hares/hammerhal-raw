@@ -1,0 +1,11 @@
+{
+    "name": "Flurry of Blows",
+    
+    "description": "When you attack, your limbs seem to blur, one strike following another faster than the eye can follow.",
+    
+    "effect": "Each time this hero makes a (1+) weapon action, roll a dice. On a 5 or more they can take the same action again without spending a hero dice, but must target the same adversary.",
+    "affects": [ "bladeborn" ],
+    "additionalEffect": "they can make an extra action on a roll of 4 or more instead.",
+    
+    "set": "hammerhal"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Unnatural Fortitude",
+    
+    "description": "You have the ability to shrug off horrendous injuries, recovering from wounds that would have slain a lesser warrior two times over.",
+    
+    "effect": "If this hero makes a Recuperate action, roll a dice. On a roll of 6, they can heal one grievous injury instead of healing a wound.",
+    "affects": [ "unrelenting" ],
+    "additionalEffect": "they can heal a grievous injury instead of a wound on a roll of 5 or more.",
+    
+    "set": "hammerhal"
+}

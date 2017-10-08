@@ -1,0 +1,11 @@
+{
+    "name": "Juggernaut",
+    
+    "description": "No one can stop you when you have your target in your sight - any who try are simply barged aside.",
+    
+    "effect": "Add 1 to this hero's agility rolls when they take pinning tests.",
+    "affects": [ "unrelenting" ],
+    "additionalEffect": "add 2 to these rolls instead.",
+    
+    "set": "hammerhal"
+}

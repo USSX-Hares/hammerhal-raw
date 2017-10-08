@@ -1,0 +1,11 @@
+{
+    "name": "Inspiring Leader",
+    
+    "description": "You know that it is your party's combined strength that will overcome this trial, not one warrior's heroics, and you bring out the best in your companions.",
+    
+    "effect": "After making an action roll for this hero, you can put any of their hero dice on the available destiny dice section of the fate board. This cannot increase the number of available destiny dice to more than 5.",
+    "affects": null,
+    "additionalEffect": null,
+    
+    "set": "hammerhal"
+}
