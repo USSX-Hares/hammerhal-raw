@@ -7,5 +7,6 @@
     "affects": [ "unrelenting" ],
     "additionalEffect": "add 1 to the result of this roll for each wound marker on your hero card.",
     
+    "categories": [ "armour" ],
     "set": "silver-tower"
 }

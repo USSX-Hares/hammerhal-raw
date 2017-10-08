@@ -7,5 +7,6 @@
     "affects": null,
     "additionalEffect": null,
     
+    "categories": [ "heal" ],
     "set": "silver-tower"
 }

@@ -16,5 +16,6 @@
     "affects": null,
     "additionalEffect": null,
     
+    "categories": [ "damage" ],
     "set": "silver-tower"
 }

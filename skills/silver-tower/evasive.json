@@ -7,5 +7,6 @@
     "affects": [ "swift" ],
     "additionalEffect": "you will also dodge if you roll the same as the attack roll.",
     
+    "categories": [ "armour" ],
     "set": "silver-tower"
 }

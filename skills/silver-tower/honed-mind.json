@@ -23,5 +23,6 @@
     "affects": null,
     "additionalEffect": null,
     
+    "categories": [ "dices" ],
     "set": "silver-tower"
 }

@@ -7,5 +7,6 @@
     "affects": [ "bladeborn" ],
     "additionalEffect": "you can make any weapon action.",
     
+    "categories": [ "armour", "damage" ],
     "set": "silver-tower"
 }

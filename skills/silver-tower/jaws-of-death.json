@@ -16,5 +16,6 @@
     "affects": null,
     "additionalEffect": null,
     
+    "categories": [ "support" ],
     "set": "silver-tower"
 }

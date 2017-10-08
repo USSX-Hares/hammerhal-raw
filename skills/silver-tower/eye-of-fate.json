@@ -16,5 +16,6 @@
     "affects": [ "celestial" ],
     "additionalEffect": "other players whose heroes are in the same chamber as yours can do the same.",
     
+    "categories": [ "armour", "support" ],
     "set": "silver-tower"
 }

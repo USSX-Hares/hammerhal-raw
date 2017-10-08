@@ -7,5 +7,6 @@
     "affects": [ "unrelenting" ],
     "additionalEffect": "remove the wound without replacing it with a stun marker.",
     
+    "categories": [ "heal" ],
     "set": "silver-tower"
 }

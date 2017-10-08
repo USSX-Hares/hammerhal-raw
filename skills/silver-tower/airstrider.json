@@ -16,5 +16,6 @@
     "affects": [ "swift" ],
     "additionalEffect": "move up to 3 spaces instead of up to D3.",
     
+    "categories": [ "move" ],
     "set": "silver-tower"
 }

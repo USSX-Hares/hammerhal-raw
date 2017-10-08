@@ -7,5 +7,6 @@
     "affects": [ "arcane" ],
     "additionalEffect": "roll the dice to determine its score instead of giving it a score of 1.",
     
+    "categories": [ "dices", "damage" ],
     "set": "silver-tower"
 }

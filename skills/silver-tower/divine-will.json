@@ -7,5 +7,6 @@
     "affects": [ "holy" ],
     "additionalEffect": "all players benefit from this ability while your hero is on the board.",
     
+    "categories": [ "support" ],
     "set": "silver-tower"
 }

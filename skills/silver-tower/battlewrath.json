@@ -7,5 +7,6 @@
     "affects": [ "chaotic" ],
     "additionalEffect": "you can pick one of your hero dice instead of having yo increase the lowest.",
     
+    "categories": [ "dices", "damage" ],
     "set": "silver-tower"
 }
