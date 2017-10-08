@@ -7,5 +7,6 @@
     "affects": null,
     "additionalEffect": null,
     
+    "categories": [ "support" ],
     "set": "hammerhal"
 }

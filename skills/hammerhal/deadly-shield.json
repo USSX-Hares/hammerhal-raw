@@ -16,5 +16,6 @@
     "affects": [ "bladeborn" ],
     "additionalEffect": "they can take a weapon action of your choice on a save roll of 5 or more instead.",
     
+    "categories": [ "armour", "damage" ],
     "set": "hammerhal"
 }

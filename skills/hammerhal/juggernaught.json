@@ -7,5 +7,6 @@
     "affects": [ "unrelenting" ],
     "additionalEffect": "add 2 to these rolls instead.",
     
+    "categories": [ "move" ],
     "set": "hammerhal"
 }

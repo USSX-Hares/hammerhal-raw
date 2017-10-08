@@ -7,5 +7,6 @@
     "affects": [ "arcane" ],
     "additionalEffect": "you can instead force the gamemaster to re-roll any one dice in each adversary phase.",
     
+    "categories": [ "support" ],
     "set": "hammerhal"
 }

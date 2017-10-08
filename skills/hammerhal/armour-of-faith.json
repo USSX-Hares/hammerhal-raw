@@ -7,5 +7,6 @@
     "affects": [ "celestial" ],
     "additionalEffect": "you can add 1 to the result of the re-roll.",
     
+    "categories": [ "armour" ],
     "set": "hammerhal"
 }

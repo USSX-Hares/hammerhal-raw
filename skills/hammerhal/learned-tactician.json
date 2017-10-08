@@ -7,5 +7,6 @@
     "affects": [ "academic" ],
     "additionalEffect": "the hero can use this skill on a roll of 5 or 6 instead of only on a 6.",
     
+    "categories": null,
     "set": "hammerhal"
 }

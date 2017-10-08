@@ -7,5 +7,6 @@
     "affects": [ "unrelenting" ],
     "additionalEffect": "re-roll failed save rolls of 1 or 2.",
     
+    "categories": [ "armour" ],
     "set": "hammerhal"
 }

@@ -7,5 +7,6 @@
     "affects": [ "bladeborn" ],
     "additionalEffect": "they can make an extra action on a roll of 4 or more instead.",
     
+    "categories": [ "damage" ],
     "set": "hammerhal"
 }

@@ -7,5 +7,6 @@
     "affects": [ "arcane" ],
     "additionalEffect": "you can instead add 2 to each of their remaining hero dice, up to a maximum score of 6.",
     
+    "categories": [ "dices", "damage" ],
     "set": "hammerhal"
 }

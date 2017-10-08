@@ -7,5 +7,6 @@
     "affects": [ "unrelenting" ],
     "additionalEffect": "they can heal a grievous injury instead of a wound on a roll of 5 or more.",
     
+    "categories": [ "heal" ],
     "set": "hammerhal"
 }

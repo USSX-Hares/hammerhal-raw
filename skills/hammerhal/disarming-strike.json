@@ -17,5 +17,6 @@
     "affects": null,
     "additionalEffect": null,
     
+    "categories": [ "damage", "support" ],
     "set": "hammerhal"
 }

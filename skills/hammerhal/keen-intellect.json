@@ -7,5 +7,6 @@
     "affects": [ "academic" ],
     "additionalEffect": "you can also re-roll failed search rolls.",
     
+    "categories": [ "support" ],
     "set": "hammerhal"
 }
