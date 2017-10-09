@@ -1,0 +1,13 @@
+{
+    "name": "Learned Tactician",
+    
+    "description": "You have studied great military treatises, and bring your expansive tactical knowledge to the dungeon.",
+    
+    "effect": "Roll a dice at the beginning of the adversary phase. On a 6, this hero and any heroes adjacent to them can immediately make a weapon action or a Move action without having to spend a hero dice.",
+    "affects": [ "academic" ],
+    "additionalEffect": "the hero can use this skill on a roll of 5 or 6 instead of only on a 6.",
+    
+    "categories": null,
+    "set": "twilight-god",
+    "type": "skill"
+}

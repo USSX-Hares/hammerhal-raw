@@ -1,0 +1,23 @@
+{
+    "name": "Feint",
+    
+    "description": "With a quick lunge, you throw your enemy off balance, opening their guard for your next attack.",
+    
+    "effect": "This hero can make the Feint weapon action. If they hit an adversary with Feint, it deals no damage. Instead, add 2 to the hero's attack rolls against that adversary for the rest of that turn.",
+    "weapons":
+    [
+        {
+            "name": "Feint",
+            "cost": 1,
+            "range": "combat",
+            "hit": 2,
+            "damage": "special"
+        }
+    ],
+    "affects": null,
+    "additionalEffect": null,
+    
+    "categories": [ "support" ],
+    "set": "hammerhal",
+    "type": "skill"
+}

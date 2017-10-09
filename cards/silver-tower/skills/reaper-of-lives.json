@@ -1,0 +1,22 @@
+{
+    "name": "Reaper of Lives",
+    
+    "description": "You are a master of carnage, at one with your weapon, and foes fall before you like wheat to a scythe.",
+    
+    "effect": null,
+    "actions":
+    [
+        {
+            "name": "Critical Blow",
+            "cost": 6,
+            "diceSpace": false,
+            "description": "Make a Combat weapon action of your choice. If the attack roll is a 6, the weapon's Damage is doubled."
+        }
+    ],
+    "affects": null,
+    "additionalEffect": null,
+    
+    "categories": [ "armour" ],
+    "set": "silver-tower",
+    "type": "skill"
+}

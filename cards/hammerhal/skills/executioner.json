@@ -1,0 +1,13 @@
+{
+    "name": "Executioner",
+    
+    "description": "You cut down your foes with grim efficiency, one headless corpse after another falling to the floor in your wake.",
+    
+    "effect": "If this hero hits a foe with a Vigour 4 or less with a weapon action, they inflict 1 additional wound.",
+    "affects": null,
+    "additionalEffect": null,
+    
+    "categories": [ "damage" ],
+    "set": "hammerhal",
+    "type": "skill"
+}

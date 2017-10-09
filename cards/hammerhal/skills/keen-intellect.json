@@ -1,0 +1,13 @@
+{
+    "name": "Keen Intellect",
+    
+    "description": "Your sharp mind means that you spot things others miss, and no clue escapes you.",
+    
+    "effect": "When this hero searches, you can add 1 to their dice roll.",
+    "affects": [ "academic" ],
+    "additionalEffect": "you can also re-roll failed search rolls.",
+    
+    "categories": [ "support" ],
+    "set": "hammerhal",
+    "type": "skill"
+}

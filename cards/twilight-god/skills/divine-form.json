@@ -1,0 +1,21 @@
+{
+    "name": "Divine Form",
+    "description": "",
+    
+    "effect": null,
+    "actions":
+    [
+        {
+            "name": "Blink",
+            "cost": 6,
+            "diceSpace": false,
+            "description": "Remove your hero from the board. Place them then back on any empty space in the same or adjacent chamber."
+        }
+    ],
+    "affects": [ "celestial" ],
+    "additionalEffect": "you can place them on empty spcae anywhere on the board instead.",
+    
+    "categories": [ "move" ],
+    "set": "twilight-god",
+    "type": "skill"
+}

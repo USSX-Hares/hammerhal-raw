@@ -1,0 +1,13 @@
+{
+    "name": "Fires of Battle",
+    
+    "description": "Hot burns your soul, stoked by a determination to overcome your foes and bathe in their blood.",
+    
+    "effect": "If your action roll contains any doubles, your hero heals a wound. If this makes room for another hero dice on your hero card, roll it immediately.",
+    "affects": null,
+    "additionalEffect": null,
+    
+    "categories": [ "heal" ],
+    "set": "silver-tower",
+    "type": "skill"
+}

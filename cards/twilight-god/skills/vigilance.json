@@ -1,0 +1,12 @@
+{
+    "name": "Vigilance",
+    "description": "",
+    
+    "effect": "Each time an ambush appears, before the Surprise! roll is made, your hero can make either Move or weapon action of their choice.",
+    "affects": [ "swift" ],
+    "additionalEffect": "you can use both Move and weapon actions in any order.",
+    
+    "categories": null,
+    "set": "twilight-god",
+    "type": "skill"
+}

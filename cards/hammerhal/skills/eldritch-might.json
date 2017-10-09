@@ -1,0 +1,13 @@
+{
+    "name": "Eldritch Might",
+    
+    "description": "Your time in the catacombs under Hammerhal has changed you...",
+    
+    "effect": "If the attack roll for a Combat weapon action made by this hero is 6 or more, it inflicts D3 additional wounds.",
+    "affects": null,
+    "additionalEffect": null,
+    
+    "categories": [ "damage" ],
+    "set": "hammerhal",
+    "type": "skill"
+}

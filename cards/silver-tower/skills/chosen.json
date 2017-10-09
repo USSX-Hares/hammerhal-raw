@@ -1,0 +1,13 @@
+{
+    "name": "Chosen",
+    
+    "description": "You bear within your soul a spark of the divine, a reward from the gods for your fervent faith.",
+    
+    "effect": "After making your action roll, add 1 to the score of the lowest hero dice.",
+    "affects": [ "holy" ],
+    "additionalEffect": "you can add 2 to the score instead.",
+    
+    "categories": [ "dices" ],
+    "set": "silver-tower",
+    "type": "skill"
+}

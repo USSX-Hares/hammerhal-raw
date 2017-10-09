@@ -1,0 +1,13 @@
+{
+    "name": "Siphon Power",
+    
+    "description": "When you slay your foes, you can siphon a measure of their strength, growing stronger with each kill you make.",
+    
+    "effect": "Whenever this hero slays a foe with a weapon action, you can add 1 to each of their remaining hero dice, up to a maximum of 6.",
+    "affects": [ "arcane" ],
+    "additionalEffect": "you can instead add 2 to each of their remaining hero dice, up to a maximum score of 6.",
+    
+    "categories": [ "dices", "damage" ],
+    "set": "hammerhal",
+    "type": "skill"
+}

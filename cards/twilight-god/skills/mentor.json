@@ -1,0 +1,12 @@
+{
+    "name": "Mentor",
+    "description": "",
+    
+    "effect": "Each time other hero passes a full circle on the renown track, this hero gains 1 gold piece and D3 renown.",
+    "affects": [ "academic" ],
+    "additionalEffect": "all players in party can re-roll any D3 or D6 rolls for them when determining the amount of gold pieces found or renown gained.",
+    
+    "categories": [ "support" ],
+    "set": "twilight-god",
+    "type": "skill"
+}

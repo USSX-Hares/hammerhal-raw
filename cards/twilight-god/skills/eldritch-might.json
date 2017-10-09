@@ -1,0 +1,12 @@
+{
+    "name": "Eldritch Might",
+    "description": "Your time in the catacombs under Hammerhal has changed you...",
+    
+    "effect": "If the attack roll for a Combat weapon action made by this hero is 6 or more, it inflicts D3 additional wounds.",
+    "affects": [ "holy" ],
+    "additionalEffect": "you can re-roll any D3 or D6 damage rolls for them.",
+    
+    "categories": [ "damage" ],
+    "set": "twilight-god",
+    "type": "skill"
+}
