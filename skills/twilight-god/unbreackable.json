@@ -1,0 +1,11 @@
+{
+    "name": "Unbreakable",
+    "description": "",
+    
+    "effect": "Each time your hero suffers a single hit of Combat weapon with the Damage value more than 1, it is decreased to the Damage of 1.",
+    "affects": [ "unrelenting" ],
+    "additionalEffect": "this applies to any effects those inflict more than one wound at a single time.",
+    
+    "categories": [ "armour" ],
+    "set": "twilight-god"
+}

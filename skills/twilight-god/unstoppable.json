@@ -1,0 +1,11 @@
+{
+    "name": "Unstoppable",
+    "description": "The broken bodies of your foes are hurled aside, not even slowing your unstoppable advance.",
+    
+    "effect": "Each time you slay an adjacent adversary, you can immediately move up to D3 spaces without spending an action dice.",
+    "affects": [ "crazed" ],
+    "additionalEffect": "you can ignore pinning tests for that move.",
+    
+    "categories": [ "move" ],
+    "set": "twilight-god"
+}

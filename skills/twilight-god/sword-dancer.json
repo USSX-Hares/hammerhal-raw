@@ -1,0 +1,11 @@
+{
+    "name": "Sword Dancer",
+    "description": "",
+    
+    "effect": "Each time your hero fails a pinning test, you can attack an adjacent adversary with a (1+) weapon action without having to spend a hero dice.",
+    "affects": [ "bladeborn" ],
+    "additionalEffect": "you can make an extra attack even if you pass the pinning test.",
+    
+    "categories": [ "damage" ],
+    "set": "twilight-god"
+}

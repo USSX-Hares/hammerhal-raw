@@ -1,0 +1,21 @@
+{
+    "name": "Idol of Destiny",
+    
+    "description": "",
+    
+    "effect": null,
+    "actions":
+    [
+        {
+            "name": "Idol of Destiny",
+            "cost": 5,
+            "diceSpace": true,
+            "description": "Put the hero dice here until the end of the round. While it is there, all Combat and Missile attacks from heroes on adjacent spaces inflict 1 extra damage."
+        }
+    ],
+    "affects": [ "totemic" ],
+    "additionalEffect": "all weapon actions will benefit from extra damage, and your hero can use them as well.",
+    
+    "categories": [ "support", "damage" ],
+    "set": "twilight-god"
+}

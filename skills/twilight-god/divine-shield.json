@@ -1,0 +1,12 @@
+{
+    "name": "Divine Shield",
+    
+    "description": "",
+    
+    "effect": "If you roll a 6 when making a save roll, you can remove a single wound marker from your hero card.",
+    "affects": [ "holy" ],
+    "additionalEffect": "this effect will trigger on the 5+ on save rolls. If your hero has only 6+ Save, the divine power will shield they as a 5+ save.",
+    
+    "categories": [ "armour", "heal" ],
+    "set": "twilight-god"
+}

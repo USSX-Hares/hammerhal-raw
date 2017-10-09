@@ -1,0 +1,20 @@
+{
+    "name": "Mark of Chamon",
+    "description": "",
+    
+    "effect": null,
+    "actions":
+    [
+        {
+            "name": "Fleet of Foot",
+            "cost": 4,
+            "diceSpace": true,
+            "description": "Put the hero dice here until the end of the round. While it is there, all other heroes in the party has +1 Move."
+        }
+    ],
+    "affects": [ "swift" ],
+    "additionalEffect": "heroes can use your Move instead of their own.",
+    
+    "categories": [ "move", "support" ],
+    "set": "twilight-god"
+}

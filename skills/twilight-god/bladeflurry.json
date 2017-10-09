@@ -1,0 +1,20 @@
+{
+    "name": "Bladeflurry",
+    "description": "",
+    
+    "effect": null,
+    "actions":
+    [
+        {
+            "name": "Bladeflurry",
+            "cost": 5,
+            "diceSpace": false,
+            "description": "Attack all adjacent characters (friend or foe) with a (1+) Combat weapon action, one after another."
+        }
+    ],
+    "affects": [ "bladeborn" ],
+    "additionalEffect": "you can choose any but (6+) Combat weapon action to make these attacks. This still should be the same weapon for the whole action.",
+    
+    "categories": [ "damage" ],
+    "set": "twilight-god"
+}

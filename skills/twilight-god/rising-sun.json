@@ -1,0 +1,11 @@
+{
+    "name": "Rising Sun",
+    "description": "",
+    
+    "effect": "Each time your hero passes a full circle on the renown track, you can remove all wound, stun or grievously injury markers from their hero card.",
+    "affects": [ "holy" ],
+    "additionalEffect": "you can roll a hero dice for each empty dice slot on your hero card.",
+    
+    "categories": [ "heal", "dices" ],
+    "set": "twilight-god"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Eye of Eagle",
+    "description": "",
+    
+    "effect": "Your Search actions now have cost of (2+) rather than (4+)",
+    "affects": [ "totemic" ],
+    "additionalEffect": "when you found a treasure as a result of search, draw an extra one, and put one to the bottom of the deck.",
+    
+    "categories": null,
+    "set": "twilight-god"
+}
