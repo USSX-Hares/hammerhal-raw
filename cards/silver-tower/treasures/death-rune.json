@@ -1,0 +1,10 @@
+{
+    "name": "Death Rune",
+    "description": "Caved into a dead man's finger bone, this potent sigil makes it bearer all the more lethal.",
+    
+    "effect": "You can draw on the power of the death rune before making an attack roll. Roll a dice. If the result is 1, 2 or 3, discard this card. If it is 4 or 5, add 1 to the Damage of the weapon action you are using. If the result is 6, double the Damage of the weapon action.",
+    
+    "categories": [ "damage", "reusable" ],
+    "set": "silver-tower",
+    "type": "treasure"
+}

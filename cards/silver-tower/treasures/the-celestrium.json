@@ -1,0 +1,11 @@
+{
+    "name": "The Celestrium",
+    "description": "A complex clockwork amulet of interlocking lenses, this strange device shows flashes of the future.",
+    
+    "effect": "Discard this card at any time to look at the top three cards of any exploration deck, without changing their order. You can share this information with the other players if you wish.",
+    
+    "categories": [ "support" ],
+    "itemType": "amulet",
+    "set": "silver-tower",
+    "type": "treasure"
+}

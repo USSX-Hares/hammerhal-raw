@@ -1,0 +1,11 @@
+{
+    "name": "Eye of Phoros",
+    "description": "By shattering this glowing blue gem the bearer gains a shadow of the daemon Phoros' might.",
+    
+    "effect": "Discard this card to absorb the jewel's power. Add 1 to the result of any attack rolls you make for the rest of your turn.",
+    
+    "categories": [ "damage" ],
+    "itemType": "gem",
+    "set": "silver-tower",
+    "type": "treasure"
+}

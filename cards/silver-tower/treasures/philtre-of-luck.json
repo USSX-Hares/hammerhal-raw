@@ -1,0 +1,11 @@
+{
+    "name": "Philtre of Luck",
+    "description": "This weird potion changes colour with every swig, and seems bottomless until it is not...",
+    
+    "effect": "After making an attack or save roll for your hero, you can take a swig of this potion to change the result to a number of your choice. Then roll another dice. Discard this card if the result of this roll is lower than the result you chose.",
+    
+    "categories": [ "reusable" ],
+    "itemType": "potion",
+    "set": "silver-tower",
+    "type": "treasure"
+}

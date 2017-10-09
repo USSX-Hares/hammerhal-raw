@@ -1,0 +1,19 @@
+{
+    "name": "Phoenixheart",
+    "description": "This mystic stone shimmers from ash black to fiery red, and can restore life to the fallen.",
+    
+    "effect": "Your hero can make this action",
+    "actions":
+    [
+        {
+            "name": "Revive",
+            "cost": 3,
+            "diceSpace": false,
+            "description": "Restore a grievously wounded hero to health. That hero heals D3 wounds; then, set their hero up adjacent to your own. Then discard this card."
+        }
+    ],
+    
+    "categories": [ "heal" ],
+    "set": "silver-tower",
+    "type": "treasure"
+}

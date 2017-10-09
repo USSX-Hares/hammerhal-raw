@@ -1,0 +1,10 @@
+{
+    "name": "Ring of Celerity",
+    "description": "A crystalline band of beautiful harmonic attunement, this ring enhances its wearer's skills",
+    
+    "effect": "Add 1 to your hero's Move while you have this card. You can discard this card at any point during your turn to roll up to two hero dice that you have already used that turn, and return them to your hero card.",
+    
+    "categories": [ "move", "dices", "reusable" ],
+    "set": "silver-tower",
+    "type": "treasure"
+}

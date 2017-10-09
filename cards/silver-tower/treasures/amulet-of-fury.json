@@ -1,0 +1,11 @@
+{
+    "name": "Amulet of Fury",
+    "description": "When called upon, a raging fire spirit flows from this amulet and into the wearer's weapon.",
+    
+    "effect": "You can channel the power of the amulet immediately after you wound an adversary. Roll four dice. For each dice that scores 5 or 6, the adversary suffers another wound. If the amulet causes any wounds, discard this card.",
+    
+    "categories": [ "damage" ],
+    "itemType": "amulet",
+    "set": "silver-tower",
+    "type": "treasure"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Sorcerous Shield",
+    "description": "Conjured with a musty scroll, this crackling corona of energy deflects enemy blows entirely.",
+    
+    "effect": "Whenever your hero suffers a wound, roll a dice. On a 4, 5 or 6 the wound is deflected and has no effect. On a 1, the scroll crumbles into dust - discard this card.",
+    
+    "categories": [ "armour", "reusable" ],
+    "itemType": "scroll",
+    "set": "silver-tower",
+    "type": "treasure"
+}

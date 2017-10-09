@@ -1,0 +1,11 @@
+{
+    "name": "Alarielle's Kiss",
+    "description": "Held in a delicate jade bottle, this luminescent potion heals the drinker's wounds instantly.",
+    
+    "effect": "You can drink this potion before making your action roll. Roll a dice for each wound marker on your card; on a 2 or 3, replace it with a stun maker. On a 4, 5 or 6 remove it entirely. Then discard this card.",
+    
+    "categories": [ "heal" ],
+    "itemType": "potion",
+    "set": "silver-tower",
+    "type": "treasure"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Warpstone Bomb",
+    "description": "A device of whirring gears, ragged wires and pulsing warpstone, this bomb is deadly to all.",
+    
+    "effect": "Discard this card to use this action:",
+    "actions":
+    [
+        {
+            "name": "Bomb",
+            "cost": 3,
+            "diceSpace": false,
+            "description": "Pick a space in your hero's chamber. Roll a dice for any heroes or adversaries in that space or adjacent to it. On a 2 or more, they suffer 2 wounds. On a 6, they suffer 4 wounds."
+        }
+    ],
+    
+    "categories": [ "damage" ],
+    "set": "silver-tower",
+    "type": "treasure"
+}

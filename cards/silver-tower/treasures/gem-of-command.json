@@ -1,0 +1,11 @@
+{
+    "name": "Gem of Command",
+    "description": "This purple gem pulses evilly as it seizes the minds of its victims, turning them into helpless puppets.",
+    
+    "effect": "You can use this card after a behaviour roll has been made, but before it has been resolved. Choose an adversary from the group, and attack another adversary with one of its weapons. The adversary you choose cannot do anything else this phase. Then discard this card.",
+    
+    "categories": [ "support" ],
+    "itemType": "gem",
+    "set": "silver-tower",
+    "type": "treasure"
+}

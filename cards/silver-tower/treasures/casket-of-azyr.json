@@ -1,0 +1,10 @@
+{
+    "name": "Casket of Azyr",
+    "description": "When opened, this pearlescent box spills out a soft blue glow that has magical healing powers.",
+    
+    "effect": "You can open the casket before making your action roll. Roll a D3, and heal that many wounds. Any other players whose heroes are in the same chamber as yours can do the same. Then discard this card.",
+    
+    "categories": [ "heal", "support" ],
+    "set": "silver-tower",
+    "type": "treasure"
+}

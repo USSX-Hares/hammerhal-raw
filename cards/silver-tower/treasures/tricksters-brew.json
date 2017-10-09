@@ -1,0 +1,11 @@
+{
+    "name": "Trickster's Brew",
+    "description": "This fizzing emerald potion is liquid illusion, pure cunning in an etherglass bottle.",
+    
+    "effect": "Discard this card during your turn to either stun an adversary in your hero's chamber, change the result of a dice roll you just made to another result of your choice, or switch your renown marker with one belonging to another player.",
+    
+    "categories": null,
+    "itemType": "potion",
+    "set": "silver-tower",
+    "type": "treasure"
+}

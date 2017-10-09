@@ -1,0 +1,11 @@
+{
+    "name": "Basilisk's Tongue",
+    "description": "The words on this leathery, tapering scroll will turn a living foe to solid stone in moments.",
+    
+    "effect": "You can read the scroll at any point of your turn. Roll a dice for each adversary in your chamber. IF the result is higher than their Vigour, they are turned to stone; remove them from the board, but do not gain any renown. Then discard this card.",
+    
+    "categories": [ "damage" ],
+    "itemType": "scroll",
+    "set": "silver-tower",
+    "type": "treasure"
+}

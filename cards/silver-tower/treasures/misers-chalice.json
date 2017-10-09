@@ -1,0 +1,10 @@
+{
+    "name": "Miser's Chalice",
+    "description": "A battered tin cup with strange sigils carved into its base, this item channels the tides of fate.",
+    
+    "effect": "Use this card during your turn to unlock any locked destiny dice, returning the, to the blue space of the fate board. Roll a dice after using it. On a 1 or 2, pass it to the player on your left. On a 3 or 4, discard it. On a 5 or 6, pass it to the player on your right.",
+    
+    "categories": [ "dices" ],
+    "set": "silver-tower",
+    "type": "treasure"
+}

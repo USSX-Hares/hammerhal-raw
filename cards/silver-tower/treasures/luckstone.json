@@ -1,0 +1,10 @@
+{
+    "name": "Luckstone",
+    "description": "Graven with eldritch runes, this sliver of stone must be snapped in half to attract good fortune.",
+    
+    "effect": "Discard this card after the destiny dice have been rolled to re-roll any of them.",
+    
+    "categories": [ "dices" ],
+    "set": "silver-tower",
+    "type": "treasure"
+}

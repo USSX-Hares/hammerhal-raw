@@ -1,0 +1,11 @@
+{
+    "name": "Unseen Amulet",
+    "description": "When breathed upon, this silver disc vanishes from sight, as does its wearer - for a time.",
+    
+    "effect": "You can discard this card at the start of the adversaries' phase. Adversaries ignore your hero during the phase - they are not pinned by you, they can move through you an they cannot target you when they attack unless they are using an Area weapon.",
+    
+    "categories": [ "armour" ],
+    "itemType": "amulet",
+    "set": "silver-tower",
+    "type": "treasure"
+}

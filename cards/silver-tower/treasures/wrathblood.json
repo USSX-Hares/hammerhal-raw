@@ -1,0 +1,11 @@
+{
+    "name": "Wrathblood",
+    "description": "This vial of thick red liquid swills with ur-gold motes and fills its drinker with battle fury.",
+    
+    "effect": "At any time during your turn, you can roll 3 dice and put them on this card. You can use these dice to make weapon actions as though they were hero dice. Discard this card at the end of your turn, along with any dice that still on it.",
+    
+    "categories": [ "dices" ],
+    "itemType": "potion",
+    "set": "silver-tower",
+    "type": "treasure"
+}
