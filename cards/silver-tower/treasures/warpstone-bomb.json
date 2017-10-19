@@ -3,7 +3,7 @@
     "description": "A device of whirring gears, ragged wires and pulsing warpstone, this bomb is deadly to all.",
     
     "effect": "Discard this card to use this action:",
-    "actions":
+    "abilities":
     [
         {
             "name": "Bomb",

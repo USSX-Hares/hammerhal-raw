@@ -4,7 +4,7 @@
     "description": "You are the hand of fate, the unstoppable destroyer, the embodiment of death itself.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Deathstrike",

@@ -4,7 +4,7 @@
     "description": "Flashes of the future are revealed in your mind's eye, warning you of dangers to come.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Foresee",

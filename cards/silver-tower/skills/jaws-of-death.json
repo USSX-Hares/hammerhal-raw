@@ -4,7 +4,7 @@
     "description": "With the aid of your comrades you surround the enemy, trapping them in a deadly ring of blades.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Coordinate",

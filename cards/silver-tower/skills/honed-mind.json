@@ -4,7 +4,7 @@
     "description": "Through methodical preparation and mental focus you know you can overcome any challenge.",
     
     "effect": "You can make these actions:",
-    "actions":
+    "abilities":
     [
         {
             "name": "Concetrate",

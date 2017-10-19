@@ -3,7 +3,7 @@
     "description": "This mystic stone shimmers from ash black to fiery red, and can restore life to the fallen.",
     
     "effect": "Your hero can make this action",
-    "actions":
+    "abilities":
     [
         {
             "name": "Revive",

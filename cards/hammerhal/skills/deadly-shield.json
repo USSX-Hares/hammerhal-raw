@@ -4,7 +4,7 @@
     "description": "You are skilled in the art of launching a devastating strike from a defensive stance, catching your opponent off guard.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Deadly Shield",

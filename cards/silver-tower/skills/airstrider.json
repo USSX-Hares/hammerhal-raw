@@ -4,7 +4,7 @@
     "description": "So nimble are you that it is no challenge to spring over the heads of your slow and clumsy foes.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Leap",

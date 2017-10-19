@@ -4,7 +4,7 @@
     "description": "You are a master of carnage, at one with your weapon, and foes fall before you like wheat to a scythe.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Critical Blow",
