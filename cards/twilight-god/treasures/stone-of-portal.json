@@ -1,0 +1,20 @@
+{
+    "name": "Stone of Portal",
+    "description": "-en find yourselves in the very different place.",
+    
+    "effect": "Discard this card to make an action:",
+    "abilities":
+    [
+        {
+            "name": "Open Portal",
+            "cost": 5,
+            "diceSpace": false,
+            "description": "Open a two-way portal to the Heldenhammer's Triumph cathedral. It lasts 3 hours, allowing adversaries to chase down the heroes and heroes to came back after the town visit."
+        }
+    ],
+    
+    "categories": [ "portal" ],
+    "itemType": "rune",
+    "set": "twilight-god",
+    "type": "treasure"
+}

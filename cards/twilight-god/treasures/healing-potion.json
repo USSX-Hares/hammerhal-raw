@@ -1,0 +1,11 @@
+{
+    "name": "Healing Potion",
+    "description": "I feel, I feel it - invincible!",
+    
+    "effect": "You can drink this brew at any moment during your turn. Immediately restore 3 wounds for your hero and remove the Fatigue card if any. Then discard this card.",
+    
+    "categories": [ "heal" ],
+    "itemType": "potion",
+    "set": "twilight-god",
+    "type": "treasure"
+}

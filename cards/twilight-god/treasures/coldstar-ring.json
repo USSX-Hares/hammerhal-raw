@@ -1,0 +1,21 @@
+{
+    "name": "Coldstar Ring",
+    "description": "Cold and chill, this ring of silver has incrustations of icy gems.",
+    
+    "effect": "Discard this card to make the Frost Nova weapon action (see below). Note that it affects allies as well as foes.",
+    "weapons":
+    [
+        {
+            "name": "Frost Nova",
+            "cost": 3,
+            "range": "area*",
+            "hit": 2,
+            "damage": "stun xD3"
+        }
+    ],
+    
+    "categories": [ "damage" ],
+    "itemType": "ring",
+    "set": "twilight-god",
+    "type": "treasure"
+}

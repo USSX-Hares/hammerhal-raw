@@ -1,0 +1,20 @@
+{
+    "name": "Berzerker's Toxin",
+    "description": "Burning-red brew in the flask of skin, this acid can turn it's drinker into the unstoppable killing machine, with the price of their health and self-control.",
+    
+    "effect": "Discard this card during your turn to drink the potion:",
+    "abilities":
+    [
+        {
+            "name": "Flameblood",
+            "cost": null,
+            "diceSpace": true,
+            "description": "Put a dice here until the end of turn. While it is there, you can re-roll any failed attack rolls for your hero. In addition, you can remove it to immediately roll 2 extra hero dices. At the end of the round, your hero loses 2 wounds and can even be grievously wounded such way."
+        }
+    ],
+    
+    "categories": [ "damage" ],
+    "itemType": "potion",
+    "set": "twilight-god",
+    "type": "treasure"
+}

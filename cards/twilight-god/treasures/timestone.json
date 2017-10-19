@@ -1,0 +1,11 @@
+{
+    "name": "Timestone",
+    "description": "This colourless rune is painted by all colours you could only imagine. The bright darkness of its edges continuously shows the twisting echoes of past and future.",
+    
+    "effect": "Discard this card at the end of your turn. Your hero than can act again, starting with a new action roll.",
+    
+    "categories": null,
+    "itemType": "rune",
+    "set": "twilight-god",
+    "type": "treasure"
+}

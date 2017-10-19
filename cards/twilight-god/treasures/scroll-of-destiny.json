@@ -1,0 +1,20 @@
+{
+    "name": "Scroll of Destiny",
+    "description": "It's like a deja vu, times two.",
+    
+    "effect": "Discard this card to make an action:",
+    "abilities":
+    [
+        {
+            "name": "Revert a Destiny",
+            "cost": 2,
+            "diceSpace": false,
+            "description": "Remove all destiny dices wherever they are. Then make a Destiny roll again."
+        }
+    ],
+    
+    "categories": [ "dices", "support" ],
+    "itemType": "scroll",
+    "set": "twilight-god",
+    "type": "treasure"
+}

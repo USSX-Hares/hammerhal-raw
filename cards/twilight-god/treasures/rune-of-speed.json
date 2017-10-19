@@ -1,0 +1,19 @@
+{
+    "name": "Rune of Speed",
+    "description": "Sometimes the hand of destiny should be... boosted a bit.",
+    
+    "effect": "You can use this rune after the Destiny roll if any dices are discarded.",
+    "abilities":
+    [
+        {
+            "name": "Empower",
+            "cost": null,
+            "diceSpace": false,
+            "description": "Put the discarded destiny dice here until the end of round. While it is there, all heroes in the party have bonus to their Move characteristic equal to the halved value of the dice put. When you remove the dice, discard this card."
+        }
+    ],
+    "categories": [ "move", "support" ],
+    "itemType": "rune",
+    "set": "twilight-god",
+    "type": "treasure"
+}

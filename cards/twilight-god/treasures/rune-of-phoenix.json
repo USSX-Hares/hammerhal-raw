@@ -1,0 +1,11 @@
+{
+    "name": "Rune of Phoenix",
+    "description": "I saw the Light... It commanded me to return!",
+    
+    "effect": "Discard this card immediately after your hero becomes grievously wounded. Remove ALL markers from the hero card and revive them anywhere on the board.",
+    
+    "categories": [ "heal" ],
+    "itemType": "rune",
+    "set": "twilight-god",
+    "type": "treasure"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Unshaped Brew",
+    "description": "It's like potion of invisibility, but potion of unshapebility.",
+    
+    "effect": "Once per turn, you can roll a dice for this card. On the roll of 1, discard this card. On the roll 2-6, your hero can move through adversaries until the end of turn. On the roll of 5 or 6, they gain +1 Move as well.",
+    
+    "categories": [ "move", "reusable" ],
+    "itemType": "potion",
+    "set": "twilight-god",
+    "type": "treasure"
+}

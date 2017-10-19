@@ -1,0 +1,11 @@
+{
+    "name": "Moonglass mirror",
+    "description": "This piece of elven glass is filled by the ancient power. The light is warped near you in a very strange manner, making your foes think that you are currently in the other position.",
+    
+    "effect": "Roll a dice each time your hero is hit by the Missile attack when not adjacent to any adversary. On the roll of 1, discard this card. On the roll of 5-6, you can redirect that hit to any model nearby (friend or foe).",
+    
+    "categories": [ "armour", "reusable" ],
+    "itemType": null,
+    "set": "twilight-god",
+    "type": "treasure"
+}

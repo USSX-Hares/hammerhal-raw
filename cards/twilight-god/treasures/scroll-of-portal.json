@@ -1,0 +1,20 @@
+{
+    "name": "Scroll of Portal",
+    "description": "Look, it's easy. All you need is concentrate on the location you want to be, read this scroll loudly and th-",
+    
+    "effect": "Discard this card to make an action:",
+    "abilities":
+    [
+        {
+            "name": "Open Portal",
+            "cost": 4,
+            "diceSpace": false,
+            "description": "Open a one-way portal to the Heldenhammer's Triumph cathedral. It lasts until the end of next round, allowing adversaries to chase down the heroes."
+        }
+    ],
+    
+    "categories": [ "portal" ],
+    "itemType": "scroll",
+    "set": "twilight-god",
+    "type": "treasure"
+}

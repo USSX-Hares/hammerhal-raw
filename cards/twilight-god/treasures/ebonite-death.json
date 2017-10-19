@@ -1,0 +1,11 @@
+{
+    "name": "Ebonite Death",
+    "description": "Poisons form the whole craft in the assassination. This one was created by the brewmaster Shar'akin from the West Aqshy realm. It smells like a good portion of death, and looks like a senility in their liquid form.",
+    
+    "effect": "After you have successfully hit with a Combat weapon, you can roll a dice. On the roll of 1, discard this card. On the roll of 2-4, nothing happens. On the roll of 5 or 6, target suffers an extra wound.",
+    
+    "categories": [ "damage", "reusable" ],
+    "itemType": "potion",
+    "set": "twilight-god",
+    "type": "treasure"
+}
