@@ -8,7 +8,7 @@
         {
             "name": "Frost Nova",
             "cost": 3,
-            "range": "area*",
+            "range": "area",
             "hit": 2,
             "damage": "stun xD3"
         }

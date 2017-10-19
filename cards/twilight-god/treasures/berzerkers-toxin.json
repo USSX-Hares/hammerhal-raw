@@ -1,6 +1,8 @@
 {
     "name": "Berzerker's Toxin",
-    "description": "Burning-red brew in the flask of skin, this acid can turn it's drinker into the unstoppable killing machine, with the price of their health and self-control.",
+    "description": "Burning-red brew in the flask of skin, this acid can turn it's drinker into the unstoppable killing machine.",
+    "descriptionFontSizeScale": 0.95,
+    "separatorScale": 0.8,
     
     "effect": "Discard this card during your turn to drink the potion:",
     "abilities":

@@ -1,10 +1,11 @@
 {
     "name": "Endless Flask of Al'Shikar",
-    "description": "Tired? Take this, sup a bit - Al'Shikar, a famous former explorer.",
+    "description": "$$HA_C 'Tired? Take this, sup a bit'\n$$HA_R - Al'Shikar, a famous explorer",
     
     "effect": "You can drink from the flask to either: re-roll an failed attack, increase the lowest hero dice, remove stun marker from your hero or re-roll failed agility roll. When you do so, roll a dice after you drink from this bottle, adding 1 for the each time you drank it up earlier this turn - on the roll of 6+ euphoria of sweet water makes you forget about the flask's existence - discard it.",
     
     "categories": [ "move", "damage", "dices", "reusable" ],
+    "categoriesFontSizeScale": 0.9,
     "itemType": "potion",
     "set": "twilight-god",
     "type": "treasure"
