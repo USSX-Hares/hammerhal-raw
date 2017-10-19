@@ -1,9 +1,9 @@
 {
     "name": "Idol of Ghur",
-    "description": "",
+    "description": "Fight song, raising up, like a roar of victory!",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Savage Invasion",

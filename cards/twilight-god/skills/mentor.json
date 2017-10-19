@@ -1,6 +1,6 @@
 {
     "name": "Mentor",
-    "description": "",
+    "description": "You have studied well, my child. Now it is your path to choose.",
     
     "effect": "Each time other hero passes a full circle on the renown track, this hero gains 1 gold piece and D3 renown.",
     "affects": [ "academic" ],

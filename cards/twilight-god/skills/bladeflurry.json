@@ -1,9 +1,9 @@
 {
     "name": "Bladeflurry",
-    "description": "",
+    "description": "Your swiftness and combat mastery allows you to fence with multiple enemies, attacking them with the flurry of blows.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Bladeflurry",

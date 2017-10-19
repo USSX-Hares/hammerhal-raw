@@ -1,9 +1,9 @@
 {
     "name": "Divine Form",
-    "description": "",
+    "description": "The gods gifted you with the ability to dematerialize your body and immediately appear in the other place.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Blink",
@@ -13,7 +13,7 @@
         }
     ],
     "affects": [ "celestial" ],
-    "additionalEffect": "you can place them on empty spcae anywhere on the board instead.",
+    "additionalEffect": "you can place them on empty space anywhere on the board instead.",
     
     "categories": [ "move" ],
     "set": "twilight-god",

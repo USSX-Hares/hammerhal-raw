@@ -1,9 +1,9 @@
 {
     "name": "Taunt",
-    "description": "",
+    "description": "You are the defender, the protector, the one who can cover other with your shield.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Bring It On!",

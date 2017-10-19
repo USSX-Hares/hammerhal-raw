@@ -1,6 +1,6 @@
 {
     "name": "Drain Life",
-    "description": "",
+    "description": "Each blow you make, each wound you inflict, each drop of blood you draw breathes you with power and appeasement.",
     
     "effect": "Each time your hero slays an adversary with a Combat weapon action, you can remove one wound marker from their hero card.",
     "affects": [ "chaotic" ],

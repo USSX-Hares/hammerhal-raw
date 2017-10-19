@@ -1,7 +1,6 @@
 {
     "name": "Divine Shield",
-    
-    "description": "",
+    "description": "The bright, celestial aura around you can stop even the mightiest blow.",
     
     "effect": "If you roll a 6 when making a save roll, you can remove a single wound marker from your hero card.",
     "affects": [ "holy" ],

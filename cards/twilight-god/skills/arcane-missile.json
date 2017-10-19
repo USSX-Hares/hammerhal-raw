@@ -1,7 +1,6 @@
 {
     "name": "Arcane Missile",
-    
-    "description": "",
+    "description": "Ancient knowledge fills your mind. Mystic power boils in your veins.",
     
     "effect": "This hero can make the Arcane Missile weapon action (see below). After resolving the attack with the Arcane Missile, if your hero is **Arcane**, you can make any other Missile weapon action without having to spend a hero dice.",
     "weapons":

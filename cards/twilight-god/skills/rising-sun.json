@@ -1,8 +1,8 @@
 {
     "name": "Rising Sun",
-    "description": "",
+    "description": "No one can stop the holy vengeance. No one can stop the sunrise. No one can stop you.",
     
-    "effect": "Each time your hero passes a full circle on the renown track, you can remove all wound, stun or grievously injury markers from their hero card.",
+    "effect": "Each time your hero passes a full circle on the renown track, you can remove all wound, stun and/or grievously injury markers from their hero card.",
     "affects": [ "holy" ],
     "additionalEffect": "you can roll a hero dice for each empty dice slot on your hero card.",
     

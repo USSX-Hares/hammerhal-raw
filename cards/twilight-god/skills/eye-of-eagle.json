@@ -1,6 +1,6 @@
 {
     "name": "Eye of Eagle",
-    "description": "",
+    "description": "Your sight can figure out any hidden details, even if they are on display (or even in the middle of the screen!).",
     
     "effect": "Your Search actions now have cost of (2+) rather than (4+)",
     "affects": [ "totemic" ],

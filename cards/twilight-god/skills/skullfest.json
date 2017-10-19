@@ -1,9 +1,9 @@
 {
     "name": "Skullfest",
-    "description": "",
+    "description": "You count skulltaking as an art rather than craft, polishing and brushing each headbone you took with extra diligence.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Skullfest",

@@ -1,6 +1,6 @@
 {
     "name": "Advnced Training",
-    "description": "",
+    "description": "You have studied well, my child. Now it is your path to choose.",
     
     "effect": "You can use this skill after you draw new skills but before you chose one of them. Draw extra 4 skills to choose. If the new skill has trait bonus, your hero will benefit from it regardless of their own traits. If it does, put this skill under the chosen as a reminder. This skill has no more effect and does not count for the amount of skills available for your hero.",
     "affects": null,

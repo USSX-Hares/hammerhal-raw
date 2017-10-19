@@ -1,6 +1,6 @@
 {
     "name": "Sword Dancer",
-    "description": "",
+    "description": "You are feinting around the enemies, confusing them with the semi-chaotic, semi-perfect combination of steps and strikes.",
     
     "effect": "Each time your hero fails a pinning test, you can attack an adjacent adversary with a (1+) weapon action without having to spend a hero dice.",
     "affects": [ "bladeborn" ],

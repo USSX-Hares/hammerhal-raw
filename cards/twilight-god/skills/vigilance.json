@@ -1,6 +1,6 @@
 {
     "name": "Vigilance",
-    "description": "",
+    "description": "Your vigilance and alertness make you feel no surprise when an unpredictable ambush appears on your way.",
     
     "effect": "Each time an ambush appears, before the Surprise! roll is made, your hero can make either Move or weapon action of their choice.",
     "affects": [ "swift" ],

@@ -1,6 +1,6 @@
 {
     "name": "Raging Fury",
-    "description": "",
+    "description": "The flame lives in our veins, warming our hearts! The fury burns in our souls, illuminating our faith! The rage and hatred melts our weapons, igniting our foes!",
     
     "effect": "If you have slain an adversary earlier this turn, add 1 to the result of your attack rolls.",
     "affects": [ "chaotic" ],

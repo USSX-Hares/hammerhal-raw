@@ -1,9 +1,9 @@
 {
     "name": "Doorsmashing",
-    "description": "",
+    "description": "I'm crawl-kicking this door, and behind it there are...",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Smash the Door",

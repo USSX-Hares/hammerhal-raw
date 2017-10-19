@@ -1,10 +1,9 @@
 {
     "name": "Idol of Destiny",
-    
-    "description": "",
+    "description": "You are able to call down the spirits and use them to empower your allies' attacks.",
     
     "effect": null,
-    "actions":
+    "abilities":
     [
         {
             "name": "Idol of Destiny",
