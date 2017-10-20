@@ -1,0 +1,108 @@
+{
+    "name": "Twilight Acolytes",
+    "description": "These cultists are in majority former acolytes of the Kairc cults. But now they all server the only one - the Twilight Cult, which empowers them with the forces no one can imagine nor understand.",
+    "image": "images/kairic_acolytes.jpg",
+    "rulesSeparatorHeight": 150,
+
+    "stats":
+    {
+        "move": 4,
+        "vigour": 3,
+        "agility": 4
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Cursed Blade",
+            "dices": "2",
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Dark Lightning",
+            "dices": "1",
+            "range": "missile",
+            "hit": 3,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Forked Lightning",
+            "description": "If the attack roll for a Dark Lightning is 6, up to three models closest to the target also suffer a hit from a Dark Lightning."
+        }
+        ,
+        {
+            "name": "Twilight Adept",
+            "description": "This Acolyte's Dark Lightning have Damage of 2 rather than 1."
+        }
+        ,
+        {
+            "name": "Acolyte with Shield",
+            "description": "This Acolyte has a Vigour of 4 rather than 3."
+        }
+        ,
+        {
+            "name": "Acolyte with Glaive",
+            "description": "This Acolyte's Cursed Blade has a Damage of 2 rather than 1."
+        }
+        ,
+        {
+            "name": "Acolyte with Two Blades",
+            "description": "Roll 4 dice for this Acolyte's Cursed Blade rather than 2."
+        }
+        ,
+        {
+            "name": "Scroll of Twilight Arts",
+            "description": "Roll 2 dice for this Acolyte's Dark Lightning."
+        }
+        ,
+        {
+            "name": "Shadowfiend",
+            "description": "If an Acolyte with a Shadowfiend is on the board, subtract 1 from all rolls on their behaviour table (to a minimum of 1)."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+2",
+            "description": "Instead of +1 to Vigour, subtract -1 to all Behaviour Rolls made for Twilight Acolytes groups."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": "1-2",
+                "name": "Draw Their Blood",
+                "description": "Each but one Acolyte moves and then attacks with whichever weapon is in range. After all of these Acolytes have taken a turn, the idle one attacks with a Dark Lightning, repeating one additional time for each wound other Acolytes caused. It can target different heroes for these attacks."
+            }
+            ,
+            {
+                "roll": 3,
+                "name": "Slay the Unbelievers",
+                "description": "Each Acolyte attacks the nearest hero with whichever weapon is in range. Then, each Acolyte that did not attack moves towards the nearest hero."
+            }
+            ,
+            {
+                "roll": "4-5",
+                "name": "There is No Escape",
+                "description": "Each Acolyte moves towards the nearest hero. Then, each Acolyte attacks the nearest hero with whichever weapon is in range."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Fall Back",
+                "description": "If there are twice as many heroes on the board as Acolytes, each Acolyte move towards the nearest portal. An Acolyte that ends its move on a portal flees and is removed from play. Each Acolyte still on the board then attacks the nearest hero with whichever weapon is in range."
+            }
+        ]
+    }
+}
