@@ -1,0 +1,94 @@
+{
+    "name": "Raging Spirits",
+    "description": "Howling and wailing their immortal hatred for the living, these spectres has awaken to fall upon the invaders in ghostly swarms, sapping the soul with every caress of their ice cold claws and stab of their grave-soiled daggers.",
+    "descriptionFontSizeScale": 0.95,
+    "image": "images/raging_spirits.jpg",
+    
+    "stats":
+    {
+        "move": 6,
+        "vigour": 9,
+        "agility": 1
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Spirit Claws",
+            "dices": "4",
+            "range": "combat",
+            "hit": 3,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Phantom Scream",
+            "dices": "4",
+            "range": "combat",
+            "hit": 3,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Ethereal Form",
+            "description": "Raging Spirits can move through heroes, adversaries, obstacles or even walls."
+        }
+        ,
+        {
+            "name": "Ethereal Form",
+            "description": "Phantom Scream affects living models in range, friend or foe, but does not affect undead Heroes."
+        }
+        ,
+        {
+            "name": "Last Howl",
+            "description": "When Raging Spirit is slain, they attack with the Phantom Scream. In addition, any adjacent living model is stunned."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+1",
+            "right": true,
+            "description": "Raging Spirits combat attacks ignore Save."
+        }
+        ,
+        {
+            "name": "+2",
+            "description": "When the Raging Spirit is hit, roll a D6 - on the roll of 5+ the attack bypasses their phantomic shape without any effect."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": 1,
+                "name": "Wailing Soul",
+                "description": "Each Spirit moves towards the Hero, then attacks them with the Spirit Claws if in range. Each Hero hit loses Renown equal to the number of wounds taken as the result of this attack."
+            }
+            ,
+            {
+                "roll": "2-3",
+                "name": "Banshee Scream",
+                "description": "Each Spirit moves, then attacks with the Phantom Scream."
+            }
+            ,
+            {
+                "roll": "4-5",
+                "name": "Death to the Living",
+                "description": "Each Spirit moves towards the nearest Hero and attacks them with Spirit Claws if in range."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Banishment",
+                "description": "Remove all Spirits from the group. Set them up at the start of next Adversary Phase anywhere on the board without any Wound or Stun markers."
+            }
+        ]
+    }
+}
