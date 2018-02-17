@@ -1,0 +1,74 @@
+{
+    "name": "Raised Skeletons",
+    "description": "Most often, skeletons are raised from the dead magically, so whatever necromancer is doing the raising can decide what level of intelligence to grant his undead horde. This can range from brainless, zombie-like shambles to the semi-intelligent massive bone constructs.",
+    "descriptionFontSizeScale": 0.85,
+    "image": "images/raised_skeletons.png",
+
+    "stats":
+    {
+        "move": 2,
+        "vigour": 2,
+        "agility": 5
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Rusty Sword",
+            "dices": "2",
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Skeleton with Horn",
+            "description": "This skeleton increases the Move characteristic of all regular skeletons nearby by 1 (usually to 3)."
+        }
+        ,
+        {
+            "name": "Raising Dead",
+            "description": "At the end phase, if at least one skeleton from the group is alive, roll a dice for each slayed skeleton from that group. On the roll of 6+, it is returned and set up by the master not adjacent to any heroes."
+        }
+        ,
+        {
+            "name": "Just Bones",
+            "description": "Slaying skeletons does not grant any renown to heroes. Instead, when the last skeleton of group is slain, all heroes gain 1 renown. If group used to have 6 or more skeletons, heroes gain D3 renown instead."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+2",
+            "description": "Raising Dead rule now is triggered on the 5+ roll."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": "1-2",
+                "name": "Ddlchrg",
+                "description": "Each skeleton moves towards the nearest Hero by double distance, and then attacks them with a Rusty Sword if in range. After that, roll a d D6 for each skeleton in group - on the roll of 6+ that skeleton suffers 1 Wound."
+            }
+            ,
+            {
+                "roll": "3-5",
+                "name": "Fstdvns",
+                "description": "Each skeleton moves towards the nearest hero. Each skeleton then attacks the nearest hero with a Rusty Sword if in range"
+            }
+            ,
+            {
+                "roll": "6",
+                "name": "Crckln",
+                "description": "Roll a dice for each skelton. If you roll a 5 or more, that grot turns into a dust and is removed from the board."
+            }
+        ]
+    }
+}
