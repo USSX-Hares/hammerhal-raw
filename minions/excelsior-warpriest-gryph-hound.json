@@ -1,0 +1,68 @@
+{
+    "name": "Gryph-hound",
+    "image": "images/gryph_hound.jpg",
+    "rulesFontSizeScale": 0.8,
+    "rulesSeparatorHeight": 75,
+    
+    "stats":
+    {
+        "move": 5,
+        "save": "-",
+        "agility": 3
+    },
+    
+    "diceSpace":
+    [ { "count": 3, "image": "tokens/wound_gray.png" } ],
+    
+    "weapons":
+    [
+        {
+            "name": "Maw & Claws",
+            "dices": "2",
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Taunt",
+            "cost" : null,
+            "diceSpace": false,
+            "description": "Adversaries could not attack Warpriest if they are adjacent to the Gryph-hound"
+        }
+        ,
+        {
+            "name": "Sigmar's Miracle",
+            "cost" : null,
+            "diceSpace": false,
+            "description": "When Gryph-hound is slain, it is leaved in the space it was slain. It cannot be attacked nor act until healed."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": "1-3",
+                "name": "Kill Command",
+                "description": "The Gryph Hound moves towards the enemy they can reach, and then attacks them with the Maw & Claws if in range."
+            }
+            ,
+            {
+                "roll": "4-5",
+                "name": "Heel Command",
+                "description": "The Gryph Hound moves towards the enemy which is nearest to the Excelsior Warpriest, and then attacks them with the Maw & Claws if in range."
+            }
+            ,
+            {
+                "roll": "6",
+                "name": "Down Command",
+                "description": "The Gryph Hound heals D3 wounds."
+            }
+        ]
+    }
+}

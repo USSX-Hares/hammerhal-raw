@@ -1,0 +1,52 @@
+{
+    "name": "Excelsior Warpriest",
+    "titleFontSizeScale": 0.85,
+    "image": "images/warpriest_2.jpg",
+    "subtitle": null,
+    
+    "stats":
+    {
+        "move": 3,
+        "save": 6,
+        "agility": 4
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Warhammer",
+            "cost": 1,
+            "range": "combat",
+            "hit": 3,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Light of Sigmar",
+            "cost": 6,
+            "range": "area",
+            "hit": 2,
+            "damage": "1"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Sigmar's Boon",
+            "cost": 3,
+            "diceSpace": false,
+            "description": "Pick a hero or a minion within 4 spaces and remove a wound from their card. If you have wounded an adversary with your Warhammer this turn, heal D3 wounds instead."
+        }
+        ,
+        {
+            "name": "Command",
+            "cost": 2,
+            "diceSpace": false,
+            "description": "Pick one of the actions from the Gryph-hound's behaviour table and make it immediately. You can only make this action once per turn."
+        }
+    ],
+    
+    "traits": [ "celestial", "holy" ],
+    "renown": "If Sigmar's Boon heals 2 wounds in a turn, gain 1 renown."
+}
