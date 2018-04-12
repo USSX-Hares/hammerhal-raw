@@ -33,8 +33,8 @@
     "abilities":
     [
         {
-            "name": "Forked Lightning",
-            "description": "If the attack roll for a Dark Lightning is 6, up to three models closest to the target also suffer a hit from a Dark Lightning."
+            "name": "Chained Lightning",
+            "description": "If the attack roll for a Dark Lightning is 6, another model nearby (friend or foe) is hit with the same attack (attack roll still required). This extra attack can provide another extra attack, but it cannot be chained to the firer or the models who are already in the chain."
         }
         ,
         {
