@@ -18,7 +18,8 @@ Gamemaster places a new Chamber and tells what have happened.
 
 #### Search (4+)
 If there are no enemies nearby, and the current chamber contains a Search Marker, remove it.
-Then the gamemaster reads the special section about secrets of the current chamber. Usually it contains Gold, but could also contaion a powerful artifacts or hidden events.  
+Then the gamemaster reads the special section about secrets of the current chamber.
+Usually it contains Gold, but could also contaion a powerful artifacts or hidden events.
 
 ### Pick Gold (3+*)
 Collect and put to your Hero card up to 1 Gold Piece that was found or dropped earlier in the current chamber.
