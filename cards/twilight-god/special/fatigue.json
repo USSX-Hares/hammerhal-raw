@@ -1,0 +1,21 @@
+{
+    "name": "Fatigue",
+    "description": "You are tired and fatigued. Your moves are not so fast as they could be, your strikes are not so precision as they should be. Return to the town and have a nice night in the tavern.",
+    
+    "effect": "Unless your hero is immune to stun, the following effect applies:",
+    "abilities":
+    [
+        {
+            "name": "Fatigued",
+            "cost": null,
+            "diceSpace": true,
+            "description": "Put one of your hero dices here. You cannot use that dice while you have Fatigue card."
+        }
+    ],
+    "affects": null,
+    "additionalEffect": null,
+    
+    "categories": null,
+    "set": "twilight-god",
+    "type": "fatigue"
+}
