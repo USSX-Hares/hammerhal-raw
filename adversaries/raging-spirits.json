@@ -17,13 +17,13 @@
             "name": "Spirit Claws",
             "dices": "4",
             "range": "combat",
-            "hit": 3,
+            "hit": 4,
             "damage": "1"
         }
         ,
         {
             "name": "Phantom Scream",
-            "dices": "4",
+            "dices": "D3",
             "range": "combat",
             "hit": 3,
             "damage": "1"
@@ -45,6 +45,11 @@
         {
             "name": "Last Howl",
             "description": "When Raging Spirit is slain, they attack with the Phantom Scream. In addition, any adjacent living model is stunned."
+        }
+        ,
+        {
+            "name": "Bonded Trisoul",
+            "description": "When slain, Raging Spirits provide D3 Group Renown and 1 personal Renown."
         }
     ],
     
