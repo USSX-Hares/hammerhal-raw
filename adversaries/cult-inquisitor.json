@@ -1,0 +1,121 @@
+{
+    "name": "Cult Inquisitor",
+    "titleFontSizeScale": 1.0,
+    "description": "Nobody excepts the cultish inquisition.",
+    "image": "images/cult-inquisitor.jpg",
+    "rulesSeparatorHeight": 85,
+    "rulesFontSizeScale": 0.75,
+    "behaviourBodyFontSizeScale": 0.80,
+    
+    "stats":
+    {
+        "move": 3,
+        "vigour": 15,
+        "agility": 5
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Ritual Knife",
+            "dices": "3",
+            "range": "combat",
+            "hit": 6,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Dark Lightning",
+            "dices": "D3",
+            "range": "missile",
+            "hit": 3,
+            "damage": "2"
+        }
+        ,
+        {
+            "name": "Twilight Storm",
+            "dices": "1",
+            "range": "area",
+            "hit": 3,
+            "damage": "D3"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Forked Lightning",
+            "description": "If the attack roll for a Dark Lightning is 6, THREE other closest models nearby (friend or foe) are hit with the same attack (attack roll still required). These extra attack can provide a new ones, but they cannot be chained to the firer."
+        }
+        ,
+        {
+            "name": "Blood Rite",
+            "description": "Whenever a Twilight Acolyte dies while the Cult Inquisitor is on the board, all other Twilight Acolytes gain +1 to hit for their Combat attacks, and the Cult Inquisitor themselves heals D3 wounds."
+        }
+        ,
+        {
+            "name": "Speaker of the Twilight God",
+            "description": "The Cult Inquisitor cannot be hit while he is adjacent to any Twilight Acolyte with Shield"
+        }
+        ,
+        {
+            "name": "The Ascension",
+            "description": "Whenever the Cult Inquisitor sacrifices third Twilight Acolyte, set up a Raging Spirit to the space acolyte was located."
+        }
+    ],
+    
+    "difficultyBonuses":
+    [
+        {
+            "name": "+1",
+            "description": "Twilight Acolytes with Shield gain 3+ Save against Missile and Area attacks, and 5+ against Combat attacks as long as the Cult Inquisitor is on the board."
+        }
+        ,
+        {
+            "name": "+2",
+            "description": "The Cult Inquisitor resurrects up to 3 Twilight Acolytes every turn exactly as described in his behaviour '5: Will of the Twilight God'. Reroll any results of '5: Will of the Twilight God' on his behaviour table."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": 1,
+                "name": "Blood Pact",
+                "description": "The Cult Inquisitor moves towards the Twilight Acolyte and sacrifices all adjacent of them. If he cannot reach any acolyte, he then acts using the '6: Fury of the Twilight God' behaviour."
+            }
+            ,
+            {
+                "roll": 2,
+                "name": "Blood Rain",
+                "description": "The Cult Inquisitor moves towards the Twilight Acolyte and sacrifices one of them if adjacent, and then attacks with the Twilight Storm twice. If he cannot reach any acolyte, he then acts using the '6: Fury of the Twilight God' behaviour."
+            }
+            ,
+            {
+                "roll": 3,
+                "name": "Gates of Chaos",
+                "description": "Set up 5 Slaanesh Daemonettes or 2 Pink Horrors as close as possible to the Cult Inquisitor. They can then act in the current Adversary Phase unless the same group has already acted earlier."
+            }
+            ,
+            {
+                "roll": 4,
+                "name": "Draw their blood",
+                "description": "If the Cult Inquisitor is adjacent to any hero, he attacks them with the Ritual Knife. Any wound inflicted such way is Grievously Wound, and counts towards the number of Acolytes Sacrificed by the Cult Inquisitor. Otherwise, he attacks with the Twilight Storm."
+            }
+            ,
+            {
+                "roll": 5,
+                "name": "Will of the Twilight God",
+                "description": "The Cult Inquisitor resurrects up to 3 Twilight Acolytes those were slain in combat earlier in nearby spaces. If all acolytes are alive and/or sacrificed, he then acts using the '1: Blood Pact' behaviour."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Fury of the Twilight God",
+                "description": "The Cult Inquisitor tries to moves into a space not adjacent to any hero but can see at least one of them. He then attacks with a Dark Lightning. If he is still adjacent to any hero, the Cult Inquisitor attacks them with the Ritual Knife instead."
+            }
+        ]
+    }
+}
