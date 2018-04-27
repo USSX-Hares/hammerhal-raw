@@ -1,0 +1,102 @@
+{
+    "name": "Incarnites",
+    "description": "Incarnites are the lesser daemons of Aldokhar, the Twilight God. Full of rage, cold and empty, Incarnites embody the true, primordial nature of Chaos.",
+    "image": "images/incarnites.jpg",
+
+    "stats":
+    {
+        "move": 4,
+        "vigour": 5,
+        "agility": 3
+    },
+    
+    "weapons":
+    [
+        {
+            "name": "Blades and Claws",
+            "dices": "3",
+            "range": "combat",
+            "hit": 4,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Leaping Attack",
+            "dices": "1",
+            "range": "combat",
+            "hit": 2,
+            "damage": "1"
+        }
+        ,
+        {
+            "name": "Unleashed Chaos",
+            "dices": "1",
+            "range": "area",
+            "hit": 3,
+            "damage": "D3"
+        }
+    ],
+    
+    "abilities":
+    [
+        {
+            "name": "Incarnite with the Lashing Tentacle",
+            "description": "Heroes adjacent to the Incarnites with the Lashing Tentacle suffer -1 cumulative penalty to their Agility."
+        }
+        ,
+        {
+            "name": "Winged Incarnite",
+            "description": "Winged Incarnites has +2 Move and can move through heroes. However, their Blades and Claws hit only on the 5+."
+        }
+        ,
+        {
+            "name": "Incarnites with the Glaive",
+            "description": "This Incarnite's Blades and Claws deal double damage."
+        }
+        ,
+        {
+            "name": "Reincarnite",
+            "description": "At the end of Adversary Phase, if the Reincarnie is on the board, roll a dice for each other Incarnite from the same group that died this turn. On the roll of 5+, it is reincarnated."
+        }
+        ,
+        {
+            "name": "Release the Chaos",
+            "description": "After the Unleashed Chaos attack is resolved, banish the attacking Incarnite."
+        }
+        ,
+        {
+            "name": "Leaping Attacks",
+            "description": "Each time Incarnite moves from, to, adjacent to and/or through a Hero, that Hero is attacked by the Leaping Attack. Neither Hero can be hit more then once per turn by every Incarnite."
+        }
+    ],
+    
+    "behaviourTable":
+    {
+        "table":
+        [
+            {
+                "roll": "1",
+                "name": "Void Call",
+                "description": "Each Incarnite moves, then attacks the adjacent Hero if in range with their Blades and Claws. Then, Roll a D6 for each Wound inflicted by the Incarnites. On the 6+, a new one is spawned from the Void."
+            }
+            ,
+            {
+                "roll": "2-3",
+                "name": "Frenzy",
+                "description": "Each Incarnite moves, then attacks the adjacent Hero if in range with their Blades and Claws. If any Hero were grievously wounded this turn, Incarnites Blades and Claws basic damage is doubled."
+            }
+            ,
+            {
+                "roll": "4-5",
+                "name": "Daemonic Instability",
+                "description": "Roll a D6 for each Incarnite, except the Reincarnite. On the roll of 5+, it attacks Heroes with the Unleashed Chaos. All other Incarnites move towards the nearest Hero and then attacks them with the Blades and Claws if in range."
+            }
+            ,
+            {
+                "roll": 6,
+                "name": "Banishment",
+                "description": "Every single Incarnite, except the Reincarnite, attacks with the Unleashed Chaos. Reincarnite can only move this turn."
+            }
+        ]
+    }
+}
