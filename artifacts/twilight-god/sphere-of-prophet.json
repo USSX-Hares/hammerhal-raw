@@ -1,0 +1,18 @@
+{
+    "name": "Sphere of Prophet",
+    "description": "This morion sphere seals the secrets of the past and the future. Do you dare to pay the price to see them?",
+    
+    "effect": "Your Hero can make the following action when they are within 2 spaces of a sealed portal:",
+    "abilities":
+    [
+        {
+            "name": "Scry",
+            "cost": 4,
+            "diceSpace": false,
+            "description": "Pick a sealed portal within 2 spaces and sacrifice 1 point of both personal and group Renown. The gamemaster then tells you the number and size of adversaries in the next chamber.\n__The answer could be approximated.__"
+        }
+    ],
+    
+    "set": "twilight-god",
+    "type": "artifact"
+}
