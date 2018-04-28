@@ -2,7 +2,7 @@
     "name": "Chaos Sorcerer Lord",
     "titleFontSizeScale": 0.9,
     "description": "This servant of the Dark Gods can call upon his eldritch power to bolster his minions, or to sear his enemies from existence.",
-    "image": "images/chaos_sorcerer_lord.jpg",
+    "image": "images/chaos-sorcerer-lord.jpg",
     "rulesSeparatorHeight": 110,
 
     "stats":

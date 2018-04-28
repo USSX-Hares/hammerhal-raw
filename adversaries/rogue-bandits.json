@@ -2,7 +2,7 @@
     "name": "Rogue Bandits",
     "description": "Rogue and outcast, this raiders lurk in the forests, stalking prey without sound before striking with uncanny precision. With surprise on their side a dozen Rogue Bandits can catch and rob a much more well-armed foe.",
     "descriptionFontSizeScale": 0.95,
-    "image": "images/rogue_bandits.jpg",
+    "image": "images/rogue-bandits.jpg",
 
     "stats":
     {

@@ -2,7 +2,7 @@
     "name": "Raised Skeletons",
     "description": "Most often, skeletons are raised from the dead magically, so whatever necromancer is doing the raising can decide what level of intelligence to grant his undead horde. This can range from brainless, zombie-like shambles to the semi-intelligent massive bone constructs.",
     "descriptionFontSizeScale": 0.85,
-    "image": "images/raised_skeletons.png",
+    "image": "images/raised-skeletons.png",
 
     "stats":
     {
