@@ -1,0 +1,10 @@
+{
+    "name": "Necklace of Fortune",
+    "description": "Never speak to her.",
+    
+    "effect": "After you draw a random card (treasure, skill, something else), but before you took it you can discard any of the heroic and/or destiny dices until the next respite. For each dice discarded, draw an extra card from the same deck and choose one to take. If you choose the original card, discard this amulet.",
+    
+    "itemType": "amulet",
+    "set": "twilight-god",
+    "type": "treasure"
+}

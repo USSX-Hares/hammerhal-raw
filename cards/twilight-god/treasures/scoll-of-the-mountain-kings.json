@@ -1,0 +1,20 @@
+{
+    "name": "Scroll of the Mountain Kings",
+    "description": "Read the scroll. Call down the thunder. Become a mountain king.",
+    
+    "effect": "Discard this card to make an action:",
+    "abilities":
+    [
+        {
+            "name": "Read Scroll",
+            "cost": 2,
+            "diceSpace": true,
+            "description": "Put a dice here. Until end of round, all models on the table decrease their movement by the halved value of that dice, rounding up, downto zero."
+        }
+    ],
+    
+    "categories": [ "support" ],
+    "itemType": "scroll",
+    "set": "twilight-god",
+    "type": "treasure"
+}

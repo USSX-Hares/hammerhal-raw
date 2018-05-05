@@ -1,0 +1,11 @@
+{
+    "name": "Dusksun Blade",
+    "description": "This blade shines in the lights of the downrising sun.",
+    
+    "effect": "Your melee attacks has +1 chance on the Hit rolls against the __undead__. You can discard this treasure to, in addition to the first effect, until end of turn deal double damage against __undead__ enemies from any sources.",
+    
+    "categories": [ "damage" ],
+    "itemType": "weapon",
+    "set": "twilight-god",
+    "type": "treasure"
+}

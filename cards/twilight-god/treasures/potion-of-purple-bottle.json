@@ -1,0 +1,20 @@
+{
+    "name": "Potion of Purple Bottle",
+    "description": "This potion is permanently sealed inside this mysterious bottle. Probably, you can only break it apart.",
+    
+    "effect": "Discard this card to make an action:",
+    "abilities":
+    [
+        {
+            "name": "Throw Potion",
+            "cost": 5,
+            "diceSpace": false,
+            "description": "Choose a space nearby. Until end of round, all non-heroic adversaries on the selected or adjacent spaces halve their attacks and movement distance, rounding down."
+        }
+    ],
+    
+    "categories": [ "support" ],
+    "itemType": "potion",
+    "set": "twilight-god",
+    "type": "treasure"
+}

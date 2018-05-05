@@ -1,0 +1,11 @@
+{
+    "name": "Luprecal's Mark",
+    "description": "Luprecal was a famous and noble daemon hunter in the northern Aqshi realm. It is said, that his power now lives in his ring.",
+    
+    "effect": "Your missile and area attacks has +1 chance on the Hit rolls against the __daemons__. You can discard this treasure to, in addition to the first effect, until end of turn deal double damage against __daemons__ enemies from any sources.",
+    
+    "categories": [ "damage" ],
+    "itemType": "ring",
+    "set": "twilight-god",
+    "type": "treasure"
+}

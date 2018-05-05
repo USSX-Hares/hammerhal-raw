@@ -1,0 +1,21 @@
+{
+    "name": "Elixir of Disappearance",
+    "description": "Your shape becomes more and more transparent with every single sip of this potion. Be careful, don't drink the entire bottle at once.",
+    "descriptionFontSizeScale": 0.9,
+    "rulesFontSizeScale": 0.85,
+    
+    "effect": null,
+    "abilities":
+    [
+        {
+            "name": "Drink Elixir",
+            "cost": 1,
+            "diceSpace": true,
+            "description": "Put the used dice here until end of round or until your Hero inflicts any damage. While it is there, enemies cannot see your Hero - they are not pinned by you, they can move through you an they cannot target you when they attack unless they are using an Area weapon. When you remove the dice, roll a D6 - if the new value is not less than removed one, you've drunk the bottle completely - discard it."
+        }
+    ],
+    "categories": [ "armour", "reusable" ],
+    "itemType": "potion",
+    "set": "twilight-god",
+    "type": "treasure"
+}

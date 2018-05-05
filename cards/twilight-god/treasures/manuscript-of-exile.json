@@ -1,0 +1,19 @@
+{
+    "name": "Manuscript of Exile",
+    "description": "Flesh lives matter.",
+    
+    "effect": "Discard this card to make an action:",
+    "abilities":
+    [
+        {
+            "name": "Exile",
+            "cost": 4,
+            "diceSpace": false,
+            "description": "Roll a dice for each non-heroic __daemon__ or __undead__ model within range of an Area attack. On the roll of 2+ target model is exiled - remove it from the gameboard. Exiled adversaries **do not** count as being slain."
+        }
+    ],
+    "categories": [ "damage" ],
+    "itemType": "scroll",
+    "set": "twilight-god",
+    "type": "treasure"
+}
