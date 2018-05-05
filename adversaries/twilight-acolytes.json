@@ -61,18 +61,18 @@
             "name": "Scroll of Twilight Arts",
             "description": "Roll 2 dice for this Acolyte's Dark Lightning."
         }
-        ,
-        {
-            "name": "Shadowfiend",
-            "description": "If an Acolyte with a Shadowfiend is on the board, subtract 1 from all rolls on their behaviour table (to a minimum of 1)."
-        }
     ],
     
     "difficultyBonuses":
     [
         {
+            "name": "+1 - Blood Arts",
+            "description": "Instead of +1 to Vigour, each time a Hero or a Minion is grievously wounded and/or killed as a result of acolytes' attack, resurrect 1 acolyte form the group slain earlier."
+        }
+        ,
+        {
             "name": "+2",
-            "description": "Instead of +1 to Vigour, subtract -1 to all Behaviour Rolls made for Twilight Acolytes groups."
+            "description": "Instead of +1 to Vigour, roll 2 dices for the behaviour rolls made for the Twilight Acolytes, and choose one you like more."
         }
     ],
     
@@ -81,13 +81,13 @@
         "table":
         [
             {
-                "roll": "1-2",
+                "roll": 1,
                 "name": "Draw Their Blood",
                 "description": "Each but one Acolyte moves and then attacks with whichever weapon is in range. After all of these Acolytes have taken a turn, the idle one attacks with a Dark Lightning, repeating one additional time for each wound other Acolytes caused. It can target different heroes for these attacks."
             }
             ,
             {
-                "roll": 3,
+                "roll": "2-3",
                 "name": "Slay the Unbelievers",
                 "description": "Each Acolyte attacks the nearest hero with whichever weapon is in range. Then, each Acolyte that did not attack moves towards the nearest hero."
             }
