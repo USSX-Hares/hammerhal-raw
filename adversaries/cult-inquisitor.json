@@ -10,7 +10,7 @@
     "stats":
     {
         "move": 3,
-        "vigour": 15,
+        "vigour": 10,
         "agility": 5
     },
     
@@ -50,12 +50,12 @@
         ,
         {
             "name": "Blood Rite",
-            "description": "Whenever a Twilight Acolyte dies while the Cult Inquisitor is on the board, all other Twilight Acolytes gain +1 to hit for their Combat attacks, and the Cult Inquisitor themselves heals D3 wounds."
+            "description": "Whenever a Twilight Acolyte dies while the Cult Inquisitor is on the board, the Cult Inquisitor heals D3 wounds."
         }
         ,
         {
             "name": "Speaker of the Twilight God",
-            "description": "The Cult Inquisitor cannot be hit while he is adjacent to any Twilight Acolyte with Shield"
+            "description": "The Cult Inquisitor cannot be hit while he is adjacent to any Twilight Acolyte with Shield and Glaive"
         }
         ,
         {
@@ -68,12 +68,12 @@
     [
         {
             "name": "+1",
-            "description": "Twilight Acolytes with Shield gain 3+ Save against Missile and Area attacks, and 5+ against Combat attacks as long as the Cult Inquisitor is on the board."
+            "description": "Twilight Acolytes with Shield and Glaive gain 3+ Save against Missile and Area attacks, and 5+ against Combat attacks as long as the Cult Inquisitor is on the board."
         }
         ,
         {
             "name": "+2",
-            "description": "The Cult Inquisitor resurrects up to 3 Twilight Acolytes every turn exactly as described in his behaviour '5: Will of the Twilight God'. Reroll any results of '5: Will of the Twilight God' on his behaviour table."
+            "description": "The Cult Inquisitor resurrects up to D3 Twilight Acolytes every turn exactly as described in his behaviour '5: Will of the Twilight God'. Reroll any results of '5: Will of the Twilight God' on his behaviour table."
         }
     ],
     
@@ -108,7 +108,7 @@
             {
                 "roll": 5,
                 "name": "Will of the Twilight God",
-                "description": "The Cult Inquisitor resurrects up to 3 Twilight Acolytes those were slain in combat earlier in nearby spaces. If all acolytes are alive and/or sacrificed, he then acts using the '1: Blood Pact' behaviour."
+                "description": "The Cult Inquisitor resurrects up to D3 Twilight Acolytes those were slain in combat earlier in nearby spaces. If all acolytes are alive and/or sacrificed, he then acts using the '1: Blood Pact' behaviour."
             }
             ,
             {
