@@ -3,7 +3,7 @@
     
     "description": "The aetheric rages wildly about you, stirred to hurricane force by your mighty deeds.",
     
-    "effect": "If you roll a 6 when making an attack roll, add a hero dice with a score of 1 to your hero card.",
+    "effect": "If you roll a 6 when making an attack roll, add a hero dice with a score of 1 to your hero card. You can only use this skill once per action.",
     "affects": [ "arcane" ],
     "additionalEffect": "roll the dice to determine its score instead of giving it a score of 1.",
     

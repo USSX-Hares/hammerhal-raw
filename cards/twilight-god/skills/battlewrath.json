@@ -4,7 +4,7 @@
     
     "effect": "Whenever you slay an enemy, increase the score of your lowest hero dice by 2",
     "affects": [ "chaotic" ],
-    "additionalEffect": "you can pick one of your hero dice instead of having yo increase the lowest.",
+    "additionalEffect": "you can increase the score of any one of your hero dice by 1 (instead of having to increase the lowest).",
     
     "categories": [ "dices", "damage" ],
     "set": "twilight-god",
